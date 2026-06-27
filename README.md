@@ -1,25 +1,98 @@
-# AI-Powered Voice Agent for Saudi Labor Law Inquiries 🇸🇦⚖️
+# 🇸🇦 Saudi Labor Law RAG — Knowledge Base & Retrieval Pipeline
 
-[span_6](start_span)This project develops an advanced AI-based voice agent designed to answer inquiries related to **Saudi Labor Law** using natural Arabic speech[span_6](end_span). [span_7](start_span)[span_8](start_span)It aims to replace traditional IVR systems with a more intuitive, real-time conversational experience[span_7](end_span)[span_8](end_span).
+مشروع لبناء قاعدة معرفة (Knowledge Base) ونظام استرجاع (Retrieval) باللغة العربية مبني على **نظام العمل السعودي** وأسئلته الشائعة، كخطوة تأسيسية لوكيل صوتي/نصي ذكي (RAG) يجيب على استفسارات نظام العمل.
 
-## 🎯 Research Objectives
-* **[span_9](start_span)Natural Interaction:** Allow users to speak naturally without fixed menus[span_9](end_span).
-* **[span_10](start_span)[span_11](start_span)Accuracy:** Utilize **RAG (Retrieval-Augmented Generation)** to ensure legal precision[span_10](end_span)[span_11](end_span).
-* **[span_12](start_span)Privacy:** Use fully open-source components deployed locally for data control[span_12](end_span).
-* **[span_13](start_span)Efficiency:** Reduce waiting times and provide 24/7 accessibility[span_13](end_span).
-
-## 🏗️ System Architecture (Proposed)
-[span_14](start_span)The system follows a modular pipeline[span_14](end_span):
-1. **[span_15](start_span)Streaming ASR:** Speech-to-Text conversion (comparing Whisper, GPT-4o, etc.)[span_15](end_span).
-2. **[span_16](start_span)RAG Engine:** Retrieving relevant law articles from a Vector Database (FAISS/Chroma)[span_16](end_span).
-3. **[span_17](start_span)Arabic LLM:** Generating accurate responses (LLaMA/Qwen)[span_17](end_span).
-4. **[span_18](start_span)Streaming TTS:** Converting text back to natural Arabic speech[span_18](end_span).
-
-## 📚 Key Technologies & References
-* **[span_19](start_span)Framework:** Python, RAG, Vector DB[span_19](end_span).
-* **[span_20](start_span)[span_21](start_span)Speech Models:** CTC-TTS, SpeechGPT, LLMVoX[span_20](end_span)[span_21](end_span).
-* **[span_22](start_span)[span_23](start_span)Benchmarks:** ALARB (Arabic Legal Argument Reasoning Benchmark)[span_22](end_span)[span_23](end_span).
+> **Arabic RAG (Retrieval-Augmented Generation) pipeline for the Saudi Labor Law** — built for a future Arabic AI voice/text agent that answers labor-law questions grounded in official sources.
 
 ---
-**[span_24](start_span)Supervisor:** Dr. Hager Saleh[span_24](end_span)  
-**[span_25](start_span)Team:** Fatimah Aldigheyhair & Hussam Almokayed[span_25](end_span)
+
+## 🧩 نظرة عامة على المراحل (Pipeline Overview)
+
+المشروع مقسّم إلى ٣ نوتبوكات متسلسلة، كل واحد يعتمد على مخرجات الذي قبله:
+
+| # | Notebook | الوصف |
+|---|----------|--------|
+| 1 | [`01_Data_Collection_Web_Scraping.ipynb`](notebooks/01_Data_Collection_Web_Scraping.ipynb) | سحب (Scraping) مواد نظام العمل السعودي والأسئلة الشائعة من موقع **وزارة الموارد البشرية والتنمية الاجتماعية (HRSD)**، مع تحويل ترقيم المواد العربي (مثل "الحادية والثلاثون") إلى أرقام صحيحة، وحفظ البيانات الخام. |
+| 2 | [`02_Data_Preparation_and_Knowledge_Base.ipynb`](notebooks/02_Data_Preparation_and_Knowledge_Base.ipynb) | تنظيف النصوص العربية (إزالة التطويل، توحيد الترقيم، معالجة المواد "الملغاة" و"مكررة")، إزالة التكرار، وبناء ملف قاعدة المعرفة النظيف الجاهز للمرحلة التالية. |
+| 3 | [`03_RAG_Retrieval_Evaluation_ChromaDB.ipynb`](notebooks/03_RAG_Retrieval_Evaluation_ChromaDB.ipynb) | بناء فهرس متجهي (Vector Index) باستخدام **ChromaDB**، وتقييم استراتيجيات الاسترجاع المختلفة (Dense / BM25 / Hybrid / Reranking) باستخدام نماذج `sentence-transformers` على مجموعة أسئلة قانونية مرجعية. |
+
+تشغّل النوتبوكات بالترتيب (1 → 2 → 3)، حيث أن نوتبوك السحب يُشغَّل مرة واحدة فقط عند الحاجة لتحديث البيانات من الموقع الرسمي.
+
+---
+
+## 📂 هيكل المشروع (Repository Structure)
+
+```
+saudi-labor-law-rag/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── notebooks/
+│   ├── 01_Data_Collection_Web_Scraping.ipynb
+│   ├── 02_Data_Preparation_and_Knowledge_Base.ipynb
+│   └── 03_RAG_Retrieval_Evaluation_ChromaDB.ipynb
+└── data/
+    └── combined_saudi_labor_law_06-10_23.csv
+```
+
+---
+
+## 🗂️ ملف البيانات (Dataset)
+
+**`data/combined_saudi_labor_law_06-10_23.csv`** — قاعدة معرفة جاهزة لـ RAG تحتوي على **597 سجلًا** موزعة على **24 تصنيفًا** (الأجور والخصومات، عقد العمل، ساعات العمل، إصابات العمل والسلامة، إنهاء العقد، مكافأة نهاية الخدمة، الإجازات، ...إلخ).
+
+من أهم الأعمدة:
+
+- `question` / `answer` — سؤال وجواب جاهزان للاستخدام في RAG.
+- `category`, `intent` — تصنيف الموضوع والنية.
+- `article_number`, `article_reference_original` — رقم ومرجع المادة النظامية.
+- `source`, `source_authority`, `source_url` — المصدر الرسمي (وزارة الموارد البشرية والتنمية الاجتماعية / هيئة الخبراء بمجلس الوزراء).
+- `verification_status`, `academic_reliability`, `quality_grade` — مؤشرات موثوقية وجاهزية السجل للاستخدام في نظام RAG حقيقي.
+- `searchable_text`, `citation_text`, `ml_text` — نسخ نصية محسّنة للبحث، للاستشهاد، وللتدريب/التضمين.
+
+> ⚠️ هذا الملف بيانات عامة مأخوذة من مصادر رسمية منشورة، ولا يُعد بديلاً عن استشارة قانونية رسمية.
+
+---
+
+## ⚙️ التشغيل (Getting Started)
+
+```bash
+git clone https://github.com/<your-username>/saudi-labor-law-rag.git
+cd saudi-labor-law-rag
+
+python -m venv venv
+source venv/bin/activate   # على ويندوز: venv\Scripts\activate
+
+pip install -r requirements.txt
+jupyter notebook
+```
+
+ثم افتح النوتبوكات داخل مجلد `notebooks/` بالترتيب الرقمي.
+
+---
+
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+
+- **Web Scraping:** `requests`, `beautifulsoup4`, `lxml`
+- **Data Processing:** `pandas`, `numpy`, `scikit-learn`
+- **Arabic Text Handling:** `arabic-reshaper`, `python-bidi`
+- **Vector DB:** `ChromaDB`
+- **Embeddings / Reranking:** `sentence-transformers`, `torch`
+
+---
+
+## 🗺️ خطوات قادمة (Roadmap)
+
+- [ ] دمج طبقة توليد إجابات (Generation) فوق نتائج الاسترجاع لإكمال نظام RAG كامل.
+- [ ] بناء واجهة وكيل صوتي (Voice Agent) بالعربية.
+- [ ] إضافة تقييم دوري للبيانات عند تحديث نظام العمل رسميًا.
+
+---
+
+## ⚖️ إخلاء مسؤولية (Disclaimer)
+
+هذا المشروع لأغراض بحثية/تعليمية، ويعتمد على بيانات عامة من مصادر حكومية رسمية. المحتوى لا يشكل استشارة قانونية، ويُنصح بالرجوع للنص الرسمي لنظام العمل السعودي وللجهات المختصة عند الحاجة لقرار قانوني فعلي.
+
+## 📄 الترخيص (License)
+
+لم يُحدَّد بعد — أضف ملف `LICENSE` (مثل MIT) حسب رغبتك قبل نشر المشروع كمفتوح المصدر.

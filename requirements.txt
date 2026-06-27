@@ -1,0 +1,19 @@
+# --- Stage 01: Data Collection / Web Scraping ---
+requests
+beautifulsoup4
+lxml
+
+# --- Shared / Stage 02: Data Preparation ---
+pandas
+numpy
+openpyxl
+scikit-learn
+matplotlib
+arabic-reshaper
+python-bidi
+
+# --- Stage 03: RAG Retrieval Evaluation ---
+chromadb
+sentence-transformers
+torch
+ipython
