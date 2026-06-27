@@ -1,0 +1,5 @@
+﻿,word_len,word_len,word_len,word_len,word_len,char_len,char_len,char_len,char_len,char_len
+,count,mean,median,min,max,count,mean,median,min,max
+source_type,,,,,,,,,,
+faq,572,79.31,66.0,28,2056,572,465.32,391.5,175,11038
+legal_article,211,90.26,76.0,27,643,211,511.17,430.0,162,3656

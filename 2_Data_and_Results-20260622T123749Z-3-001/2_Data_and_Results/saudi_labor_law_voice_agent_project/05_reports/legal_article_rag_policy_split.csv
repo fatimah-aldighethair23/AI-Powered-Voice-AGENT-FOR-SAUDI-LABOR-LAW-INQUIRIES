@@ -1,0 +1,4 @@
+﻿dataset,count,rag_policy
+All legal articles - cleaned audit dataset,249,retained_for_audit
+Active legal articles - allowed for RAG indexing,211,indexed
+"Repealed legal articles - archive only, not indexed",38,excluded_from_index

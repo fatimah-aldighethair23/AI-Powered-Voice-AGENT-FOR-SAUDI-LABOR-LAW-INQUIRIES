@@ -1,0 +1,3 @@
+﻿strategy,total_chunks,min_words,mean_words,median_words,max_words,total_characters
+Structural Chunking,490,32,92.58,79.0,656,259893
+Fixed-size Chunking Baseline,490,27,87.2,73.0,500,245742

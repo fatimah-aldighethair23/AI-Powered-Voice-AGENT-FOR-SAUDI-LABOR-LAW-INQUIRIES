@@ -1,0 +1,2 @@
+﻿stage,evaluation_questions,experiment_configurations,best_configuration,recall_at_1,recall_at_3,recall_at_5,mrr,ndcg_at_5,avg_latency_sec,interpretation
+Stage 03 - RAG Retrieval Evaluation,235,22,structural + bge_m3 + hybrid_reranker (alpha=0.8),0.7617,0.9277,0.9745,0.8472,0.8773,0.407,"The selected retriever demonstrates high top-5 retrieval coverage with strong ranking quality, making it suitable for grounding the downstream legal voice agent."

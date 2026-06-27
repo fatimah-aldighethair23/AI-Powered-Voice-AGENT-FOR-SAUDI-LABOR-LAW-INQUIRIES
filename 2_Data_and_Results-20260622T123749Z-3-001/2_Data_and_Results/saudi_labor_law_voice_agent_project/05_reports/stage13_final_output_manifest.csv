@@ -1,0 +1,7 @@
+﻿file_group,file_name,file_path,exists,row_count,size_kb,notebook03_usage,status
+Notebook 03 required input,Experimental KB - active law only,saudi_labor_law_voice_agent_project\03_final\rag_knowledge_base_dataset_experiment_no_leakage_active_law_only.csv,True,489,1525.58,Knowledge base for fair retrieval evaluation,PASS
+Notebook 03 required input,Retrieval evaluation dataset - valid only,saudi_labor_law_voice_agent_project\03_final\rag_retrieval_evaluation_dataset_valid_only.csv,True,145,183.45,Queries with valid gold labels for retrieval metrics,PASS
+Notebook 03 required input,Structural chunks,saudi_labor_law_voice_agent_project\04_chunks\rag_chunks_structural_legal_experiment.csv,True,490,889.61,Legal-structure-aware chunking experiment,PASS
+Notebook 03 required input,Fixed-size chunks,saudi_labor_law_voice_agent_project\04_chunks\rag_chunks_fixed_size_experiment.csv,True,490,862.88,Baseline fixed-size chunking experiment,PASS
+Audit output,Full evaluation dataset,saudi_labor_law_voice_agent_project\03_final\rag_evaluation_dataset.csv,True,160,187.52,Full evaluation and audit copy,PASS
+Audit output,Repealed legal archive,saudi_labor_law_voice_agent_project\03_final\legal_articles_repealed_archive_not_indexed.csv,True,38,41.62,Archived only; must not be indexed,PASS

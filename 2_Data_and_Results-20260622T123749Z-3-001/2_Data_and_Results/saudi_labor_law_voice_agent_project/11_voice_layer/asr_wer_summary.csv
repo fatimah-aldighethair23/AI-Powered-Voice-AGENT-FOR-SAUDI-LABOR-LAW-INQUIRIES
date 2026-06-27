@@ -1,0 +1,2 @@
+﻿metric,n,value,ci95_low,ci95_high
+mean_wer,40,0.2095,0.1615,0.2639

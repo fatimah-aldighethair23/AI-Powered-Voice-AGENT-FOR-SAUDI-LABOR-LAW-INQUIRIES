@@ -1,0 +1,3 @@
+﻿chunking_strategy,chunks,empty_chunks,duplicated_chunk_ids,repealed_legal_chunks,faq_evaluation_leakage,status
+Structural,490,0,0,0,0,OK
+Fixed-size,490,0,0,0,0,OK

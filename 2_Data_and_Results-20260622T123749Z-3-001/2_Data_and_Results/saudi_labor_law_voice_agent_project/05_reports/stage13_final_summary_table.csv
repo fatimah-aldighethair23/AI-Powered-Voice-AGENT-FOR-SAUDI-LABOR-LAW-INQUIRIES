@@ -1,0 +1,7 @@
+﻿category,metric,value,status,interpretation
+Knowledge Base,Experimental KB records,489,PASS,Main active-law-only knowledge base for Notebook 03.
+Evaluation,Full evaluation questions,160,PASS,Full evaluation dataset retained for audit and qualitative analysis.
+Evaluation,Retrieval-valid evaluation questions,145,PASS,Only records valid for objective retrieval metrics.
+Chunks,Structural chunks,490,PASS,Structural legal chunking output.
+Chunks,Fixed-size chunks,490,PASS,Baseline chunking output.
+Safety,Chunk quality critical failures,0,PASS,Must be zero before moving to retrieval experiments.

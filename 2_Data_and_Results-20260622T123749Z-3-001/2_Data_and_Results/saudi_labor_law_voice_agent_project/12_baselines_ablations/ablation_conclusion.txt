@@ -1,0 +1,1 @@
+RAG vs No-RAG correct-citation gain: -8.3pp; McNemar p=0.7266

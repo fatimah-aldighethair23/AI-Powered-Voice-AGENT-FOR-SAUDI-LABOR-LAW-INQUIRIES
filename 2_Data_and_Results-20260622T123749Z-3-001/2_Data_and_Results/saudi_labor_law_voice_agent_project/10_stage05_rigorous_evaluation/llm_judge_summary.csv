@@ -1,0 +1,5 @@
+﻿model,metric,n,mean_1to5,mean_0to1,ci95_low,ci95_high
+ALLaM-7B-Instruct-preview,faithfulness,22,4.364,0.841,0.75,0.932
+ALLaM-7B-Instruct-preview,answer_relevance,22,4.318,0.83,0.682,0.955
+Qwen2.5-7B-Instruct,faithfulness,19,4.579,0.895,0.789,0.974
+Qwen2.5-7B-Instruct,answer_relevance,19,4.474,0.868,0.711,1.0

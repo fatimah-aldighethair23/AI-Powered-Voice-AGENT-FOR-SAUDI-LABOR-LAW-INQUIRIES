@@ -1,0 +1,23 @@
+﻿Category,Check,Value,Expected,Status,Interpretation
+Dataset Size,Legal article records,249,> 0,PASS,Legal article records after cleaning and status classification.
+Dataset Size,Unique numeric legal articles,245,> 0,PASS,Coverage of numeric legal article sequence. Repeated legal labels such as مكرر are handled separately.
+Dataset Size,Raw/clean FAQ records,703,> 0,PASS,Original cleaned FAQ records before final domain-filtered split.
+Dataset Size,FAQ indexing records,278,> 0,PASS,FAQ records used inside the experimental RAG knowledge base.
+Dataset Size,FAQ evaluation records after Stage 06.5,122,> 0,PASS,Held-out FAQ records after exact and content-level leakage checks.
+Completeness,Empty article_text,0,0,PASS,No legal article should have an empty text field.
+Completeness,Empty FAQ answers,0,0,PASS,No FAQ record should have an empty answer.
+Completeness,Empty FAQ indexing questions,0,0,PASS,FAQ indexing questions must not be empty.
+Completeness,Empty FAQ evaluation questions,0,0,PASS,FAQ evaluation questions must not be empty.
+Duplicates,Duplicated legal article labels,0,0,PASS,True duplicate legal article labels should not appear after cleaning.
+Duplicates,Duplicated legal document IDs,0,0,PASS,Duplicate legal document IDs indicate repeated legal records.
+Duplicates,Duplicated FAQ indexing document IDs,0,0,PASS,FAQ indexing set should not contain repeated question-answer records.
+Duplicates,Duplicated FAQ evaluation document IDs,0,0,PASS,FAQ evaluation set should not contain repeated question-answer records.
+Leakage,Exact FAQ leakage between indexing and evaluation,0,0,PASS,Must be zero to avoid inflated retrieval scores caused by exact split leakage.
+Leakage,Content-level leakage audit records,124,> 0,PASS,Stage 06.5 audit file generated using TF-IDF character n-grams and cosine similarity.
+Leakage,Strong content leaks removed from FAQ evaluation,2,>= 0,PASS,Strong near-duplicate FAQ evaluation records removed after content-level leakage detection.
+Leakage,Possible content leaks flagged for review,0,>= 0,PASS,Borderline FAQ similarities retained but saved for manual review.
+Legal Status,Active legal articles retained,211,> 0,PASS,Active legal articles are retained and allowed for RAG indexing.
+Legal Status,Repealed legal articles retained for audit,38,>= 0,PASS,Repealed articles should be retained only as audit/archive records and not indexed for retrieval.
+Legal Status,Active legal articles used for RAG,211,> 0,PASS,Only active legal articles should be used in the RAG legal source.
+Legal Status,Repealed legal articles archived only,38,Same as repealed count,PASS,Repealed legal articles are preserved for transparency and excluded from retrieval indexing.
+RAG Safety,Repealed legal articles indexed in RAG,0,0,PASS,Verified using df_articles_active. Repealed legal articles must be zero inside RAG indexing sources.

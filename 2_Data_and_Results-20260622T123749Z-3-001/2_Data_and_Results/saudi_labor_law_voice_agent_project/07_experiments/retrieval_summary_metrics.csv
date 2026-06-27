@@ -1,0 +1,7 @@
+﻿experiment,total_queries,evaluable_queries,Recall@1,Recall@3,Recall@5,MRR,Avg latency ms
+Structural + Dense,136,131,0.9771,1.0,1.0,0.9885,14.41
+Structural + BM25,136,131,0.9771,1.0,1.0,0.9873,0.76
+Structural + Hybrid,136,131,0.9771,1.0,1.0,0.9885,12.68
+Structural + Hybrid + Reranker,136,131,0.9771,0.9924,1.0,0.9863,328.87
+Fixed-size + Dense,136,131,0.9771,1.0,1.0,0.9885,12.2
+Fixed-size + Hybrid,136,131,0.9771,1.0,1.0,0.9885,12.4

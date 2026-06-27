@@ -1,0 +1,10 @@
+﻿Check,Value,Expected,Status,Interpretation
+Total evaluation questions,160,> 0,PASS,The final evaluation dataset must not be empty.
+FAQ evaluation questions,121,> 0,PASS,FAQ held-out questions are required for document-level retrieval evaluation.
+Manual legal evaluation questions,24,>= 20,PASS,At least 20 legal questions provide a stronger article-level retrieval evaluation.
+Out-of-scope questions,15,>= 10,PASS,At least 10 OOS questions support reliable refusal and guardrail testing.
+Retrieval-evaluable records,145,> 0,PASS,"FAQ and legal questions eligible for Recall, MRR, and nDCG calculations."
+Remaining duplicate questions,0,0,PASS,Duplicate questions must be removed before retrieval evaluation.
+Unknown evaluation types,0,0,PASS,"Only faq_retrieval, legal_article_retrieval, and out_of_scope are allowed."
+Legal questions missing gold articles,0,0,PASS,Every manual legal question must have valid gold article references.
+OOS records inside retrieval metrics subset,0,0,PASS,"Out-of-scope questions are for guardrail testing, not retrieval relevance metrics."

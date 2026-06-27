@@ -1,0 +1,4 @@
+﻿eval_type,questions,recall_at_1,recall_at_3,recall_at_5,mrr,ndcg_at_5,avg_latency_sec
+faq_paraphrase_retrieval,131,0.9771,0.9924,1.0,0.9866,0.99,0.4166
+legal_article_retrieval,104,0.7115,0.8654,0.8654,0.7804,0.8023,0.3948
+overall_source_aware,235,0.8596,0.9362,0.9404,0.8954,0.9069,0.407

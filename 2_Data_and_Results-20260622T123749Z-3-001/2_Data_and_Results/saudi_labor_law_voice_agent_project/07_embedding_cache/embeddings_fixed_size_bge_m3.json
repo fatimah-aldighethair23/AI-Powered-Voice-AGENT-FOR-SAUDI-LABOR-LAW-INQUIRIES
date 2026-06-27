@@ -1,0 +1,8 @@
+{
+  "model_key": "bge_m3",
+  "model_name": "BAAI/bge-m3",
+  "corpus_name": "fixed_size",
+  "rows": 490,
+  "dimensions": 1024,
+  "corpus_hash": "d24eb92d50e9c76427febb09cbb29bc00f532081e78fc0810053a233a5dcf3eb"
+}

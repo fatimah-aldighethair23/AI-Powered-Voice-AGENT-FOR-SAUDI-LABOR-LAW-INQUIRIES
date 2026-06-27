@@ -1,19 +1,24 @@
-# --- Stage 01: Data Collection / Web Scraping ---
-requests
-beautifulsoup4
-lxml
-
-# --- Shared / Stage 02: Data Preparation ---
-pandas
-numpy
-openpyxl
-scikit-learn
-matplotlib
-arabic-reshaper
-python-bidi
-
-# --- Stage 03: RAG Retrieval Evaluation ---
-chromadb
-sentence-transformers
-torch
-ipython
+torch==2.12.0.dev20260408+cu128
+transformers==5.12.1
+accelerate==1.14.0
+bitsandbytes==0.49.2
+sentence-transformers==5.5.1
+rank-bm25==0.2.2
+chromadb==1.5.9
+scikit-learn==1.9.0
+scipy==1.17.1
+pandas==3.0.3
+numpy==2.4.6
+jiwer==4.0.0
+soundfile==0.14.0
+faster-whisper==1.2.1
+edge-tts==7.2.8
+elevenlabs==2.53.0
+gradio==6.19.0
+openpyxl==3.1.5
+python-docx==1.2.0
+python-pptx==1.0.2
+nbclient==0.10.4
+nbformat==5.10.4
+pypdf==6.13.3
+PyMuPDF==1.27.2.3

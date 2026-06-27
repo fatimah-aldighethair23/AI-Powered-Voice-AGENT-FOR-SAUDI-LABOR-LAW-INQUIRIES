@@ -1,0 +1,16 @@
+{
+  "model_key": "allam_7b",
+  "model_name": "ALLaM-7B-Instruct-preview",
+  "questions": 45,
+  "answer_accuracy": 0.7333,
+  "answered_rate": 0.5333,
+  "refusal_rate": 0.4667,
+  "citation_hit_rate": 0.625,
+  "avg_groundedness": 0.4238,
+  "hallucination_proxy_rate": 0.0889,
+  "avg_voice_suitability": 1.0,
+  "avg_total_latency_sec": 1.0864,
+  "avg_generation_latency_sec": 0.9115,
+  "avg_output_tokens": 37.8667,
+  "selection_score": 0.627045
+}

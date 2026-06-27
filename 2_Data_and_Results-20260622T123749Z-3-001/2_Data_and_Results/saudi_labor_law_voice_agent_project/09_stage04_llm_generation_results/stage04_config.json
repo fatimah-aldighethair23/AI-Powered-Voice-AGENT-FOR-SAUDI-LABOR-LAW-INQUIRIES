@@ -1,0 +1,23 @@
+{
+  "stage": "Stage 04 - Grounded LLM Answer Generation",
+  "project_dir": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project",
+  "stage03_dir": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\08_stage03_rag_results",
+  "stage04_dir": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\09_stage04_llm_generation_results",
+  "best_retrieval_config": {
+    "chunking_strategy": "structural",
+    "embedding_model": "e5_large",
+    "retriever": "hybrid_reranker",
+    "alpha": 0.8,
+    "top_k": 5,
+    "candidate_k": 50,
+    "rerank_candidate_k": 20,
+    "reliability_threshold": 0.65,
+    "chroma_collection": "rag_structural_e5_large"
+  },
+  "models_evaluated": [
+    "allam_7b",
+    "qwen_7b"
+  ],
+  "max_eval_rows": null,
+  "evaluation_note": "Legal questions are evaluated using article citation correctness when gold article numbers exist. FAQ questions are evaluated using answer presence and lexical groundedness proxy, not article citation."
+}

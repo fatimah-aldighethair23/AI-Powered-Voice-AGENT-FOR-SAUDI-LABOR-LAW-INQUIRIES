@@ -1,0 +1,15 @@
+{
+  "rank": 1,
+  "chunking_strategy": "fixed_size",
+  "embedding_model": "e5_large",
+  "retriever": "hybrid_reranker",
+  "alpha": 0.8,
+  "questions": 24,
+  "recall_at_1": 0.625,
+  "recall_at_3": 0.9166666666666666,
+  "recall_at_5": 0.9583333333333334,
+  "mrr": 0.7604166666666666,
+  "ndcg_at_5": 0.8135432204714393,
+  "avg_latency_sec": 0.5580011606216431,
+  "selection_score": 0.8601044774276212
+}

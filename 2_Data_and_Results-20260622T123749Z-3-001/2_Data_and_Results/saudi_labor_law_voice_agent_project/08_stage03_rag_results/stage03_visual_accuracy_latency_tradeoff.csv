@@ -1,0 +1,17 @@
+﻿rank,chunking_strategy,embedding_model,retriever,alpha,questions,recall_at_1,recall_at_3,recall_at_5,mrr,ndcg_at_5,avg_latency_sec,label
+1,structural,e5_large,hybrid_reranker,0.8,155,0.9161,0.9871,0.9935,0.9508,0.9621,0.3361,hybrid_reranker | e5_large
+2,structural,bge_m3,hybrid_reranker,0.8,155,0.9161,0.9806,0.9935,0.9502,0.9617,0.3222,hybrid_reranker | bge_m3
+3,fixed_size,bge_m3,hybrid_reranker,0.8,155,0.9161,0.9806,0.9871,0.9489,0.9592,0.3214,hybrid_reranker | bge_m3
+4,fixed_size,e5_large,hybrid_reranker,0.8,155,0.9161,0.9806,0.9871,0.9489,0.9592,0.327,hybrid_reranker | e5_large
+5,fixed_size,bge_m3,hybrid,0.9,155,0.9097,0.9677,0.9806,0.9384,0.9495,0.0373,hybrid | bge_m3
+6,structural,bge_m3,hybrid,0.9,155,0.8903,0.9548,0.9806,0.9255,0.9393,0.0376,hybrid | bge_m3
+7,fixed_size,bge_m3,hybrid,0.8,155,0.8774,0.9548,0.9742,0.9142,0.9293,0.0392,hybrid | bge_m3
+8,structural,bge_m3,hybrid,0.8,155,0.8774,0.9419,0.9677,0.9094,0.9239,0.0392,hybrid | bge_m3
+9,fixed_size,bge_m3,hybrid,0.65,155,0.8645,0.9161,0.9484,0.8916,0.9056,0.0399,hybrid | bge_m3
+10,structural,bge_m3,hybrid,0.65,155,0.8645,0.9032,0.9355,0.8873,0.8992,0.0382,hybrid | bge_m3
+11,fixed_size,e5_large,hybrid,0.9,155,0.8645,0.9097,0.929,0.887,0.8974,0.0408,hybrid | e5_large
+12,structural,e5_large,hybrid,0.9,155,0.8645,0.9097,0.9226,0.8846,0.8941,0.0405,hybrid | e5_large
+13,fixed_size,e5_large,hybrid,0.65,155,0.8516,0.8968,0.9161,0.8741,0.8845,0.0401,hybrid | e5_large
+14,fixed_size,e5_large,hybrid,0.8,155,0.8452,0.9032,0.9161,0.8728,0.8837,0.0401,hybrid | e5_large
+15,structural,e5_large,hybrid,0.8,155,0.8452,0.9032,0.9161,0.8717,0.8828,0.0418,hybrid | e5_large
+16,structural,e5_large,hybrid,0.65,155,0.8452,0.9032,0.9097,0.869,0.8792,0.0402,hybrid | e5_large

@@ -1,0 +1,9 @@
+﻿File Type,Path,Purpose
+Experimental KB - CSV,saudi_labor_law_voice_agent_project\03_final\rag_knowledge_base_dataset_experiment_no_leakage_active_law_only.csv,Main dataset for retrieval experiments without FAQ leakage
+Experimental KB - Excel,saudi_labor_law_voice_agent_project\03_final\rag_knowledge_base_dataset_experiment_no_leakage_active_law_only.xlsx,Readable Excel version of the experimental RAG knowledge base
+Production KB - CSV,saudi_labor_law_voice_agent_project\03_final\rag_knowledge_base_dataset_full_production_active_law_only.csv,Full production knowledge base after evaluation
+Production KB - Excel,saudi_labor_law_voice_agent_project\03_final\rag_knowledge_base_dataset_full_production_active_law_only.xlsx,Readable Excel version of the full production knowledge base
+Repealed Archive - CSV,saudi_labor_law_voice_agent_project\03_final\legal_articles_repealed_archive_not_indexed.csv,"Audit archive for repealed legal articles, not indexed"
+Repealed Archive - Excel,saudi_labor_law_voice_agent_project\03_final\legal_articles_repealed_archive_not_indexed.xlsx,Readable Excel version of repealed legal article archive
+Legacy Experimental KB - CSV,saudi_labor_law_voice_agent_project\03_final\rag_knowledge_base_dataset_experiment_no_leakage.csv,Compatibility file for later RAG stages
+Legacy Production KB - CSV,saudi_labor_law_voice_agent_project\03_final\rag_knowledge_base_dataset_full_production.csv,Compatibility file for later RAG stages

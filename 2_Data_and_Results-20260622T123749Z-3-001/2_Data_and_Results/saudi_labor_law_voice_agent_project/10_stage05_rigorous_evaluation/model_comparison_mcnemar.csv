@@ -1,0 +1,4 @@
+﻿model_A,model_B,A_better,B_better,mcnemar_exact_p,significant_at_0.05,diff_A_minus_B_mean,diff_ci95_low,diff_ci95_high,subset
+allam_7b,qwen_7b,3,1,0.625,False,0.0444,-0.0444,0.1333,all_questions
+allam_7b,qwen_7b,0,1,1.0,False,-0.0588,-0.1765,0.0,legal_only
+allam_7b,qwen_7b,3,0,0.25,False,0.2143,0.0,0.4286,faq_only

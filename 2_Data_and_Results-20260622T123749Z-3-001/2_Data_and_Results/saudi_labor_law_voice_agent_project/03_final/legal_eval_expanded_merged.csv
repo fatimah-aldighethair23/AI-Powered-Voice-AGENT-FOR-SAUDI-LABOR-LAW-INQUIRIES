@@ -1,0 +1,219 @@
+﻿question,eval_type,gold_article_number,gold_article_numbers,source,review_status
+كم مدة فترة التجربة في نظام العمل السعودي؟,legal_article_retrieval,53.0,53,human_curated,approved
+هل يجوز وضع العامل تحت التجربة أكثر من مرة لدى نفس صاحب العمل؟,legal_article_retrieval,54.0,54,human_curated,approved
+ما الحد الأقصى لساعات العمل اليومية في نظام العمل؟,legal_article_retrieval,98.0,98,human_curated,approved
+ما الحد الأقصى لساعات العمل الأسبوعية؟,legal_article_retrieval,98.0,98,human_curated,approved
+هل تختلف ساعات العمل في شهر رمضان؟,legal_article_retrieval,98.0,98,human_curated,approved
+ما مدة الإجازة السنوية المستحقة للعامل؟,legal_article_retrieval,109.0,109,human_curated,approved
+متى تزيد الإجازة السنوية إلى ثلاثين يومًا؟,legal_article_retrieval,109.0,109,human_curated,approved
+هل يستحق العامل أجرًا عن أيام الإجازة غير المستخدمة عند انتهاء العمل؟,legal_article_retrieval,111.0,111,human_curated,approved
+هل يستحق العامل إجازة عند الزواج أو وفاة أحد الأقارب؟,legal_article_retrieval,113.0,113,human_curated,approved
+هل للعامل الحق في إجازة مرضية؟,legal_article_retrieval,117.0,117,human_curated,approved
+ما حالات انتهاء عقد العمل؟,legal_article_retrieval,74.0,74,human_curated,approved
+ما مدة الإشعار عند إنهاء العقد غير محدد المدة؟,legal_article_retrieval,75.0,75,human_curated,approved
+متى يستحق العامل تعويضًا عند إنهاء العقد لسبب غير مشروع؟,legal_article_retrieval,77.0,77,human_curated,approved
+متى يجوز لصاحب العمل إنهاء العقد دون مكافأة أو تعويض؟,legal_article_retrieval,80.0,80,human_curated,approved
+متى يجوز للعامل ترك العمل دون إشعار مع احتفاظه بحقوقه؟,legal_article_retrieval,81.0,81,human_curated,approved
+متى يستحق العامل مكافأة نهاية الخدمة؟,legal_article_retrieval,84.0,"84,85",human_curated,approved
+هل يحق لصاحب العمل نقل العامل من مكان عمله الأصلي؟,legal_article_retrieval,58.0,58,human_curated,approved
+ما المقصود بعقد العمل في نظام العمل؟,legal_article_retrieval,50.0,50,human_curated,approved
+كيف يتم دفع أجر العامل؟,legal_article_retrieval,90.0,90,human_curated,approved
+ما واجبات صاحب العمل تجاه العامل؟,legal_article_retrieval,61.0,61,human_curated,approved
+ما التزامات العامل في نظام العمل؟,legal_article_retrieval,65.0,65,human_curated,approved
+ما الحد الأقصى لساعات العمل الإضافية وكيف تُحتسب؟,legal_article_retrieval,107.0,107,human_curated,approved
+ما أحكام السلامة والصحة المهنية في بيئة العمل؟,legal_article_retrieval,121.0,121,human_curated,approved
+ما حقوق العاملة في إجازة الوضع؟,legal_article_retrieval,151.0,151,human_curated,approved
+ما المقصود بصاحب العمل في نظام العمل السعودي؟,legal_article_retrieval,2.0,2,auto_generated_allam,pending_expert_review
+ما هو الأساس الذي يُمنع التمييز في التوظيف أو العمل بناءً عليه في نظام العمل السعودي؟,legal_article_retrieval,3.0,3,auto_generated_allam,pending_expert_review
+ما الالتزام الذي يجب على صاحب العمل والعامل التقيد به عند تطبيق أحكام نظام العمل السعودي بما يتوافق مع أحكام الشريعة الإسلامية؟,legal_article_retrieval,4.0,4,auto_generated_allam,pending_expert_review
+ما هو تعريف عقد العمل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,5.0,5,auto_generated_allam,pending_expert_review
+ما هي الأحكام التي تسري على العامل العرضي والموسمي والمؤقت في نظام العمل السعودي؟,legal_article_retrieval,6.0,6,auto_generated_allam,pending_expert_review
+ما هي الفئات المستثناة من تطبيق نظام العمل السعودي؟,legal_article_retrieval,7.0,7,auto_generated_allam,pending_expert_review
+ما حكم الشروط أو المواثيق التي تخالف نظام العمل السعودي أو تتنازل عن حقوق العامل أثناء سريان عقد العمل؟,legal_article_retrieval,8.0,8,auto_generated_allam,pending_expert_review
+ما اللغة المعتمدة في البيانات والسجلات والملفات وعقود العمل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,9.0,9,auto_generated_allam,pending_expert_review
+ما نوع التقويم المُتبع لحساب المدد والمواعيد المنصوص عليها في نظام العمل السعودي؟,legal_article_retrieval,10.0,10,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي تقع على عاتق صاحب العمل الجديد تجاه عمال صاحب العمل الأصلي في حال قام الأخير بتفويض جزء من أعماله؟,legal_article_retrieval,11.0,11,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه لضمان التزام الموظفين بأحكام لائحة تنظيم العمل في المنشأة؟,legal_article_retrieval,13.0,13,auto_generated_allam,pending_expert_review
+ما المعلومات التي يجب على صاحب العمل تقديمها لمكتب العمل عند بدء العمل في أي منشأة؟,legal_article_retrieval,15.0,15,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه في حال عدم تمكنه من ممارسة العمل بنفسه، وفي حال تعدد الشركاء أو المديرين في المنشأة؟,legal_article_retrieval,16.0,16,auto_generated_allam,pending_expert_review
+ما هي المعلومات التي يجب على صاحب العمل الاحتفاظ بها في مكان العمل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,17.0,17,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على العامل اتخاذه في حال عدم موافقته على انتقال حقوقه إلى المالك الجديد عند انتقال ملكية المنشأة؟,legal_article_retrieval,18.0,18,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب اتباعها لضمان حصول العامل أو ورثته على المبالغ المستحقة في حال إفلاس صاحب العمل أو تصفية المنشأة؟,legal_article_retrieval,19.0,19,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل أو العامل اتباعها لضمان عدم إساءة استعمال نظام العمل السعودي أو الضغط على حرية الآخر لتحقيق مصالح شخصية؟,legal_article_retrieval,20.0,20,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على الوزير اتخاذه في سبيل تنفيذ أحكام نظام العمل السعودي بالتنسيق مع الجهات ذات العلاقة؟,legal_article_retrieval,21.0,21,auto_generated_allam,pending_expert_review
+ما هي الخدمات التي تقدمها الوزارة لتسهيل عملية التوظيف بين العمال وأصحاب الأعمال؟,legal_article_retrieval,22.0,22,auto_generated_allam,pending_expert_review
+ما هي المعلومات التي يجب على المواطن تقديمها عند التسجيل في قنوات التوظيف؟,legal_article_retrieval,23.0,23,auto_generated_allam,pending_expert_review
+ما هي الإجراءات المتبعة في قنوات التوظيف وفقاً للائحة نظام العمل السعودي؟,legal_article_retrieval,24.0,24,auto_generated_allam,pending_expert_review
+ما البيانات التي يجب على صاحب العمل إرسالها إلى الوزارة خلال خمسة عشر يوماً من تاريخ شغور وظيفة أو استحداثها؟,legal_article_retrieval,25.0,25,auto_generated_allam,pending_expert_review
+ما التزام المنشآت تجاه توظيف السعوديين حسب نظام العمل السعودي؟,legal_article_retrieval,26.0,26,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يمكن للوزير اتخاذه لضمان تسجيل العمال في قنوات التوظيف في بعض الحالات والمناطق؟,legal_article_retrieval,27.0,27,auto_generated_allam,pending_expert_review
+ما هي نسبة ذوي الإعاقة الذين يجب على صاحب العمل توظيفهم في منشأته إذا كان عدد عمال المنشأة 25 عاملًا فأكثر، ويمكّن طبيعة العمل لديه من تشغيل ذوي الإعاقة الذين تم تأهيلهم مهنيًّا؟,legal_article_retrieval,28.0,28,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه إذا أصيب العامل إصابة عمل نتج عنها نقص في قدراته المعتادة، بحيث يمكنه العمل في وظيفة أخرى مناسبة؟,legal_article_retrieval,29.0,29,auto_generated_allam,pending_expert_review
+السؤال: ما هو النشاط الذي يمكن لصاحب العمل أو الموظف أن يطلب ترخيصاً له من وزارة الموارد البشرية والتنمية الاجتماعية لضمان نظامية نشاط التوظيف أو الاستقدام أو الإسناد؟,legal_article_retrieval,30.0,30,auto_generated_allam,pending_expert_review
+ما هي العلاقة التي تربط العمال السعوديين الذين أسهمت المكاتب أو الشركات في توظيفهم، أو الذين تم استقدامهم نيابة عن أصحاب العمل، بصاحب العمل؟,legal_article_retrieval,31.0,31,auto_generated_allam,pending_expert_review
+ما الشروط المطلوبة للحصول على رخصة عمل لغير السعودي الذي يرغب في ممارسة عمل في المملكة العربية السعودية؟,legal_article_retrieval,33.0,33,auto_generated_allam,pending_expert_review
+ما الإجراء المطلوب من صاحب العمل للحصول على رخصة العمل لغير السعوديين وفقاً لنظام العمل السعودي؟,legal_article_retrieval,34.0,34,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يمكن أن تتخذها الوزارة في حال عدم تجديد رخصة العمل لمخالفة صاحب العمل معايير التوطين؟,legal_article_retrieval,35.0,35,auto_generated_allam,pending_expert_review
+ما هي المهن والأعمال التي يحظر على غير السعودي الاشتغال بها وفقاً لنظام العمل السعودي؟,legal_article_retrieval,36.0,36,auto_generated_allam,pending_expert_review
+ما هو الوضع القانوني لعقد عمل غير السعودي في المملكة العربية السعودية؟,legal_article_retrieval,37.0,37,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل والعامل الالتزام به في حال رغب أحدهما بتغيير المهنة؟,legal_article_retrieval,38.0,38,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه في حال ضبط عامل يعمل لدى صاحب عمل آخر أو لحسابه الخاص؟,legal_article_retrieval,39.0,39,auto_generated_allam,pending_expert_review
+من يتحمل رسوم استقدام العامل غير السعودي ورسوم الإقامة ورخصة العمل وتجديدهما في نظام العمل السعودي؟,legal_article_retrieval,40.0,40,auto_generated_allam,pending_expert_review
+ما شروط الاستقدام ونقل الخدمات للعامل غير السعودي وفقاً لنظام العمل السعودي؟,legal_article_retrieval,41.0,41,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على أصحاب العمل اتباعها لتدريب الموظفين السعوديين وتحسين مهاراتهم؟,legal_article_retrieval,42.0,42,auto_generated_allam,pending_expert_review
+ما النسبة التي يجب على صاحب العمل تأهيلها أو تدريبها من العمال السعوديين، وفقاً لنظام العمل السعودي؟,legal_article_retrieval,43.0,43,auto_generated_allam,pending_expert_review
+ما هي المعلومات التي يجب أن يتضمنها برنامج التدريب لرفع مستوى أداء العامل من حيث المهارة والإنتاجية؟,legal_article_retrieval,44.0,44,auto_generated_allam,pending_expert_review
+ما هو العقد الذي يلتزم بموجبه صاحب العمل بتأهيل أو تدريب شخص لإعداده في مهنة معينة وفقاً لنظام العمل السعودي؟,legal_article_retrieval,45.0,45,auto_generated_allam,pending_expert_review
+ما هي المعلومات التي يجب أن يتضمنها عقد التأهيل أو التدريب بين صاحب العمل والمتدرب حسب نظام العمل السعودي؟,legal_article_retrieval,46.0,46,auto_generated_allam,pending_expert_review
+ما هي الشروط التي يجب توفرها في المتدرب الجامعي أو الخريج الذي ترغب المنشأة في تدريبه وفقاً للائحة نظام العمل السعودي؟,legal_article_retrieval,47.0,47,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل اتباعها عند إنهاء عقد التدريب أو التأهيل مع الموظف، مع الالتزام بإبلاغ الطرف الآخر قبل أسبوع من التاريخ المحدد للإنهاء؟,legal_article_retrieval,48.0,48,auto_generated_allam,pending_expert_review
+ما هي الأحكام التي تسري على عقود التأهيل والتدريب وفقاً لنظام العمل السعودي؟,legal_article_retrieval,49.0,49,auto_generated_allam,pending_expert_review
+ما المعلومات الأساسية التي يجب أن يتضمنها عقد العمل حسب نظام العمل السعودي؟,legal_article_retrieval,52.0,52,auto_generated_allam,pending_expert_review
+ما هي مدة فترة التجربة التي يمكن لصاحب العمل والموظف الاتفاق عليها في عقد العمل؟,legal_article_retrieval,53.0,53,auto_generated_allam,pending_expert_review
+ما هي شروط إخضاع العامل لفترة تجربة أخرى في مهنته أو عمل آخر بعد انتهاء علاقته بصاحب العمل السابق؟,legal_article_retrieval,54.0,54,auto_generated_allam,pending_expert_review
+ما هو تأثير استمرار الطرفين في تنفيذ عقد العمل المحدد المدة على طبيعة العقد بعد انتهاء مدته؟,legal_article_retrieval,55.0,55,auto_generated_allam,pending_expert_review
+ما أثر تجديد عقد العمل لمدة محددة على حساب حقوق العامل؟,legal_article_retrieval,56.0,56,auto_generated_allam,pending_expert_review
+ما هي مدة العقد إذا كان من أجل القيام بعمل معين؟,legal_article_retrieval,57.0,57,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل اتباعها عند نقل العامل من مكان عمله الأصلي إلى مكان آخر، وما هي المدة القصوى لهذا التكليف في السنة؟,legal_article_retrieval,58.0,58,auto_generated_allam,pending_expert_review
+ما الشروط الواجب توفرها لنقل العامل ذي الأجر الشهري إلى فئة عمال اليومية أو العمال المعينين بالأجر الأسبوعي أو بالقطعة أو بالساعة، حسب نظام العمل السعودي؟,legal_article_retrieval,59.0,59,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب اتباعها قبل تكليف العامل بعمل يختلف اختلافاً جوهرياً عن العمل المتفق عليه؟,legal_article_retrieval,60.0,60,auto_generated_allam,pending_expert_review
+ما الالتزامات التي يجب على صاحب العمل القيام بها تجاه العمال وفقاً من نظام العمل السعودي؟,legal_article_retrieval,61.0,61,auto_generated_allam,pending_expert_review
+ما هو الإجراء الذي يجب على العامل اتخاذه إذا حضر في الوقت المحدد لأداء عمله، أو أبدى استعداده لأداء عمله، ولكن لم يتمكن من العمل بسبب يرجع إلى صاحب العمل؟,legal_article_retrieval,62.0,62,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه لمنع دخول المواد المحرمة شرعاً إلى مكان العمل؟,legal_article_retrieval,63.0,63,auto_generated_allam,pending_expert_review
+ما المعلومات التي يجب أن تتضمنها شهادة الخدمة التي يقدمها صاحب العمل للعامل عند انتهاء عقد العمل؟,legal_article_retrieval,64.0,64,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي يجب على العامل الالتزام بها وفقاً لنظام العمل السعودي؟,legal_article_retrieval,65.0,65,auto_generated_allam,pending_expert_review
+ما هي الجزاءات التأديبية التي يمكن لصاحب العمل توقيعها على العامل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,66.0,66,auto_generated_allam,pending_expert_review
+ما هي الحالات التي يُمنع فيها صاحب العمل من توقيع عقوبات غير واردة في نظام العمل أو في لائحة تنظيم العمل على العامل؟,legal_article_retrieval,67.0,67,auto_generated_allam,pending_expert_review
+ما هي المدة التي يجب أن تنقضي على توقيع الجزاء على العامل بسبب مخالفة سابقة حتى لا يُشدد عليه الجزاء عند تكرار المخالفة؟,legal_article_retrieval,68.0,68,auto_generated_allam,pending_expert_review
+ما هي المدة التي يجب على صاحب العمل أن يبلغ فيها عن المخالفة التأديبية بعد كشفها وقبل فصل العامل؟,legal_article_retrieval,69.0,69,auto_generated_allam,pending_expert_review
+السؤال: هل يمكن لصاحب العمل توقيع أكثر من جزاء واحد على العامل بسبب مخالفته لنظام العمل؟,legal_article_retrieval,70.0,70,auto_generated_allam,pending_expert_review
+ما الإجراءات التي يجب اتباعها قبل توقيع جزاء تأديبي على العامل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,71.0,71,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب اتباعها على العامل عند استلامه قرار توقيع الجزاء عليه، وفي حال رفضه للاستلام أو غيابه، ما هي الإجراءات التي يجب على صاحب العمل اتباعها لإبلاغه بالقرار؟,legal_article_retrieval,72.0,72,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه تجاه الغرامات الموقعة على العامل، مع توضيح اسم العامل ومقدار أجره ومقدار الغرامة وسبب توقيعها وتاريخ ذلك؟,legal_article_retrieval,73.0,73,auto_generated_allam,pending_expert_review
+ما الحالات التي ينتهي فيها عقد العمل بناءً على إرادة أحد الطرفين في العقود غير المحددة المدة؟,legal_article_retrieval,74.0,74,auto_generated_allam,pending_expert_review
+ما هي المدة التي يجب على صاحب العمل إشعار العامل بإنهاء عقده غير المحدد المدة إذا كان الأجر يُدفع شهرياً؟,legal_article_retrieval,75.0,75,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه في حال إنهاء عقد العمل غير المحدد المدة دون الالتزام بمهلة الإشعار المحددة للعامل؟,legal_article_retrieval,76.0,76,auto_generated_allam,pending_expert_review
+ما التعويض الذي يستحقه العامل في حال إنهاء عقده غير المحدد المدة من قبل صاحب العمل، وفقاً من نظام العمل السعودي؟,legal_article_retrieval,77.0,77,auto_generated_allam,pending_expert_review
+ما الحالات التي يؤدي فيها وفاة أحد الطرفين إلى إنهاء عقد العمل في نظام العمل السعودي؟,legal_article_retrieval,79.0,79,auto_generated_allam,pending_expert_review
+ما الحالات التي يجيز فيها نظام العمل لصاحب العمل فسخ عقد العمل دون مكافأة العامل أو إشعاره أو تعويضه؟,legal_article_retrieval,80.0,80,auto_generated_allam,pending_expert_review
+ما الحالات التي تُمكن العامل من ترك العمل دون إشعار، مع احتفاظه بحقوقه النظامية كلها، وفقاً من نظام العمل السعودي؟,legal_article_retrieval,81.0,81,auto_generated_allam,pending_expert_review
+ما السبب الذي يمنع صاحب العمل من إنهاء خدمة العامل بسبب المرض قبل استنفاذه المدد المحددة للإجازة المنصوص عليها في نظام العمل السعودي؟,legal_article_retrieval,82.0,82,auto_generated_allam,pending_expert_review
+ما الشروط التي يمكن لصاحب العمل اشتراطها على العامل لحماية مصالحه المشروعة، مثل عدم المنافسة أو إفشاء الأسرار بعد انتهاء العقد؟,legal_article_retrieval,83.0,83,auto_generated_allam,pending_expert_review
+ما هي الطريقة التي تُحسب بها مكافأة نهاية الخدمة في حال انتهاء علاقة العمل بين العامل وصاحب العمل في النظام السعودي؟,legal_article_retrieval,84.0,84,auto_generated_allam,pending_expert_review
+ما هي المكافأة المستحقة للعامل في حال انتهاء علاقة العمل بسبب استقالته بعد خدمة لا تقل عن خمس سنوات؟,legal_article_retrieval,85.0,85,auto_generated_allam,pending_expert_review
+ما هي الحالات التي يمكن فيها الاتفاق على عدم احتساب العمولات أو بعضها في مكافأة نهاية الخدمة؟,legal_article_retrieval,86.0,86,auto_generated_allam,pending_expert_review
+ما الحالات التي يستحق فيها العامل المكافأة كاملة وفقاً من نظام العمل السعودي؟,legal_article_retrieval,87.0,87,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل اتخاذها عند انتهاء خدمة العامل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,88.0,88,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يمكن لمجلس الوزراء اتخاذه بشأن تحديد حد أدنى للأجور في المملكة العربية السعودية؟,legal_article_retrieval,89.0,89,auto_generated_allam,pending_expert_review
+ما هي الطريقة المعتمدة لصرف أجور العمال في المملكة العربية السعودية، مع الالتزام بعدم تجاوز المواعيد المحددة لاستحقاق الأجور؟,legal_article_retrieval,90.0,90,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يمكن أن يتخذه صاحب العمل إذا تسبب أحد موظفيه في إتلاف آلات أو منتجات الشركة ولم يكن ذلك نتيجة لخطأ من صاحب العمل أو ناشئاً عن قوة قاهرة؟,legal_article_retrieval,91.0,91,auto_generated_allam,pending_expert_review
+ما هي الحالات التي يجوز فيها حسم مبلغ من أجر العامل دون موافقته الخطية، وفقاً لنظام العمل السعودي؟,legal_article_retrieval,92.0,92,auto_generated_allam,pending_expert_review
+ما هي النسبة القصوى التي يمكن حسمها من أجر العامل شهرياً دون الحاجة لموافقة المحكمة العمالية؟,legal_article_retrieval,93.0,93,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يمكن للعامل أو صاحب العمل اتخاذه في حال حسم صاحب العمل من أجر العامل دون مسوغ مشروع أو تأخر في سداد أجره؟,legal_article_retrieval,94.0,94,auto_generated_allam,pending_expert_review
+ما هو الأساس الذي يُقدر عليه أجر العامل في حال عدم وجود نص في عقد العمل أو لائحة تنظيم العمل أو عرف المهنة في المنشأة؟,legal_article_retrieval,95.0,95,auto_generated_allam,pending_expert_review
+ما هو الأساس الذي يُحسب عليه أجر العامل إذا كان أجره محدداً على أساس القطعة أو الإنتاج، وفي حال كان أجره كله عمولات أو نسب مئوية من المبيعات؟,legal_article_retrieval,96.0,96,auto_generated_allam,pending_expert_review
+ماذا يحدث لأجر العامل إذا تم توقيفه أو احتجازه من قبل الجهات المختصة في قضايا تتعلق بالعمل، وما هي التزامات صاحب العمل في هذه الحالة؟,legal_article_retrieval,97.0,97,auto_generated_allam,pending_expert_review
+كم عدد ساعات العمل اليومية للعامل في نظام العمل السعودي خلال شهر رمضان؟,legal_article_retrieval,98.0,98,auto_generated_allam,pending_expert_review
+ما هي الحالات التي يجوز فيها زيادة ساعات العمل إلى تسع ساعات في اليوم، أو تخفيضها إلى سبع ساعات في اليوم، وفقاً لنظام العمل السعودي؟,legal_article_retrieval,99.0,99,auto_generated_allam,pending_expert_review
+ما هي شروط أداء العمل بالتناوب في المنشآت التي تتطلب ذلك وفقاً لنظام العمل السعودي؟,legal_article_retrieval,100.0,100,auto_generated_allam,pending_expert_review
+كم يجب أن تكون فترة الراحة خلال ساعات العمل التي لا تزيد عن خمس ساعات متتالية؟,legal_article_retrieval,101.0,101,auto_generated_allam,pending_expert_review
+السؤال: هل تعتبر فترات الراحة والصلاة والطعام ضمن ساعات العمل الرسمية؟,legal_article_retrieval,102.0,102,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل اتخاذها لضمان راحة العمال أثناء العمل المستمر دون فترة راحة لأسباب فنية أو لظروف التشغيل، وفقاً لنظام العمل السعودي؟,legal_article_retrieval,103.0,103,auto_generated_allam,pending_expert_review
+ما هو يوم الراحة الأسبوعية في نظام العمل السعودي، وهل يمكن استبداله بيوم آخر لبعض العمال، وما هي الالتزامات المترتبة على صاحب العمل تجاه عماله في هذا اليوم؟,legal_article_retrieval,104.0,104,auto_generated_allam,pending_expert_review
+ما هي الشروط الواجب توافرها لتجميع الراحات الأسبوعية للعامل عن مدة لا تتجاوز ثمانية أسابيع في الأماكن البعيدة عن العمران أو الأعمال التي تتطلب طبيعة العمل فيها استمرار العمل؟,legal_article_retrieval,105.0,105,auto_generated_allam,pending_expert_review
+ما هي الحالات التي يجوز فيها لصاحب العمل عدم التقيد بنظام العمل فيما يتعلق بساعات العمل اليومية؟,legal_article_retrieval,106.0,106,auto_generated_allam,pending_expert_review
+ما هو الأجر الإضافي الذي يستحقه العامل عن ساعات العمل التي تزيد على الساعات المعتمدة في المعيار الأسبوعي لساعات العمل، أو التي تُؤدَّى في أيام العطل والأعياد؟,legal_article_retrieval,107.0,107,auto_generated_allam,pending_expert_review
+ما هي الحالات المستثناة من تطبيق المادتين 89 و111 من نظام العمل السعودي؟,legal_article_retrieval,108.0,108,auto_generated_allam,pending_expert_review
+كم هي مدة الإجازة السنوية التي يستحقها العامل عن كل عام، وما هي المدة اللازمة لزيادة الإجازة إلى ثلاثين يوماً إذا أمضى العامل في خدمة صاحب العمل خمس سنوات متصلة؟,legal_article_retrieval,109.0,109,auto_generated_allam,pending_expert_review
+ما هي شروط تأجيل الإجازة السنوية في نظام العمل السعودي؟,legal_article_retrieval,110.0,110,auto_generated_allam,pending_expert_review
+ما هي حقوق العامل في حال ترك العمل قبل استعمال أيام الإجازة المستحقة؟,legal_article_retrieval,111.0,111,auto_generated_allam,pending_expert_review
+ما هي الإجازات التي يحق للعامل الحصول عليها بأجر كامل وفقًا للائحة نظام العمل السعودي؟,legal_article_retrieval,112.0,112,auto_generated_allam,pending_expert_review
+كم مدة الإجازة التي يستحقها العامل بأجر كامل في حالة وفاة أحد أصوله أو فروعه، أو زوجه، أو أحد والديه، أو ولادة مولود له؟,legal_article_retrieval,113.0,113,auto_generated_allam,pending_expert_review
+ما هي شروط الحصول على إجازة لأداء فريضة الحج وفقاً لنظام العمل السعودي؟,legal_article_retrieval,114.0,114,auto_generated_allam,pending_expert_review
+ما هي شروط الحصول على إجازة لأداء الامتحانات للعامل المنتسب إلى مؤسسة تعليمية بموافقة صاحب العمل؟,legal_article_retrieval,115.0,115,auto_generated_allam,pending_expert_review
+ما هي الشروط الواجب توافرها للحصول على إجازة دون أجر وفقاً لنظام العمل السعودي؟,legal_article_retrieval,116.0,116,auto_generated_allam,pending_expert_review
+ما هي حقوق العامل عند إثبات مرضه وفقاً لنظام العمل السعودي؟,legal_article_retrieval,117.0,117,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يمكن لصاحب العمل اتخاذه في حال عمل العامل أثناء تمتعه بإجازة، حسب نظام العمل السعودي؟,legal_article_retrieval,118.0,118,auto_generated_allam,pending_expert_review
+ما هي الحالات التي لا يُعتبر فيها العاملون طوال الوقت الذين يتأثرون بتخفيض جماعي ومؤقت لساعات عملهم العادية عاملين لبعض الوقت؟,legal_article_retrieval,119.0,119,auto_generated_allam,pending_expert_review
+ما هي القواعد والضوابط التي يجب على صاحب العمل اتباعها لتنظيم العمل لبعض الوقت وفقاً لنظام العمل السعودي؟,legal_article_retrieval,120.0,120,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي يجب على صاحب العمل توفيرها في المنشأة للحفاظ على بيئة عمل آمنة وصحية للعمال؟,legal_article_retrieval,121.0,121,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي تقع على صاحب العمل لحماية العمال من الأخطار والأمراض الناجمة عن بيئة العمل والآلات المستخدمة؟,legal_article_retrieval,122.0,122,auto_generated_allam,pending_expert_review
+ما هي مسؤولية العامل تجاه الوسائل الوقائية، وفقاً من نظام العمل السعودي؟,legal_article_retrieval,124.0,124,auto_generated_allam,pending_expert_review
+ما الإجراءات التي يجب على صاحب العمل اتخاذها للوقاية من الحريق في مكان العمل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,125.0,125,auto_generated_allam,pending_expert_review
+ما هي مسؤولية صاحب العمل تجاه الأشخاص الذين يدخلون مكان العمل بحكم الوظيفة أو بموافقة صاحب العمل أو وكلائه، في حال تعرضهم للحوادث بسبب إهمال اتخاذ الاحتياطات الفنية اللازمة؟,legal_article_retrieval,126.0,126,auto_generated_allam,pending_expert_review
+ما المقصود بالمادة الخطرة وفقاً لنظام العمل السعودي؟,legal_article_retrieval,128.0,128,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي تتخذها الوزارة لتحديد المنشآت ذات المخاطر الكبرى؟,legal_article_retrieval,129.0,129,auto_generated_allam,pending_expert_review
+ما الإجراءات التي يجب على أصحاب العمل اتخاذها بالتنسيق مع الوزارة لتحديد وضع منشآتهم وفق نظام العمل السعودي؟,legal_article_retrieval,130.0,130,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على أصحاب العمل اتخاذها لضمان سلامة العمال والجمهور والبيئة في المنشآت ذات المخاطر الكبرى؟,legal_article_retrieval,131.0,131,auto_generated_allam,pending_expert_review
+ما هي الحالات التي لا تسري عليها أحكام الفصل الثالث من الباب الثامن في نظام العمل السعودي؟,legal_article_retrieval,132.0,132,auto_generated_allam,pending_expert_review
+ما هي التزامات صاحب العمل تجاه العامل المصاب بإصابة عمل أو بمرض مهني حسب نظام العمل السعودي؟,legal_article_retrieval,133.0,133,auto_generated_allam,pending_expert_review
+ما هو تعريف الإصابة وفق نظام العمل السعودي؟,legal_article_retrieval,134.0,134,auto_generated_allam,pending_expert_review
+ما هي الحالة التي تعد في حكم الإصابة وتمنح نفس الحقوق والمعاملة فيما يتعلق بالمعونة والعلاج، وفقًا من نظام العمل السعودي؟,legal_article_retrieval,135.0,135,auto_generated_allam,pending_expert_review
+ما هي الآلية المعتمدة لتحديد الأمراض المهنية ودرجات العجز الدائم وفقاً لنظام العمل السعودي؟,legal_article_retrieval,136.0,136,auto_generated_allam,pending_expert_review
+ما هي حقوق العامل المصاب بعجز مؤقت نتيجة إصابة عمل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,137.0,137,auto_generated_allam,pending_expert_review
+ما هي حقوق المصاب أو المستحقين عنه في حال نتج عن الإصابة عجز دائم كلي أو وفاة؟,legal_article_retrieval,138.0,138,auto_generated_allam,pending_expert_review
+ما الحالات التي لا يلزم فيها صاحب العمل بتوفير العلاج للموظف المصاب وفقاً لنظام العمل السعودي؟,legal_article_retrieval,139.0,139,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل اتخاذها في حال إصابة أحد عماله بمرض مهني، وفقاً من نظام العمل السعودي؟,legal_article_retrieval,140.0,140,auto_generated_allam,pending_expert_review
+ما الإجراءات المتبعة للإبلاغ عن إصابات العمل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,141.0,141,auto_generated_allam,pending_expert_review
+ما الإجراءات التي يجب على صاحب العمل اتخاذها لضمان توفير الإسعافات الأولية اللازمة للعمال في مكان العمل؟,legal_article_retrieval,142.0,142,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل القيام به تجاه العمال المعرضين للإصابة بالأمراض المهنية وفقاً من نظام العمل السعودي؟,legal_article_retrieval,143.0,143,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي تقع على صاحب العمل لتوفير الرعاية الصحية لعماله وفقًا لنظام العمل السعودي؟,legal_article_retrieval,144.0,144,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يمكن لصاحب العمل اتخاذه لإنشاء صندوق للتوفير والادخار بموافقة الوزير، مع توضيح كيفية مساهمة العمال في هذا الصندوق؟,legal_article_retrieval,145.0,145,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي يجب على صاحب العمل توفيرها للعمال الذين يعملون في أماكن بعيدة عن العمران؟,legal_article_retrieval,146.0,146,auto_generated_allam,pending_expert_review
+ما التزام صاحب العمل تجاه العمال في الأماكن البعيدة عن العمران، وفي المناجم والمحاجر ومراكز التنقيب عن النفط؟,legal_article_retrieval,147.0,147,auto_generated_allam,pending_expert_review
+ما هي التزام صاحب العمل تجاه العمال فيما يتعلق بوسائل النقل؟,legal_article_retrieval,148.0,148,auto_generated_allam,pending_expert_review
+ما هي حقوق المرأة العاملة في إجازة الوضع وفقاً لنظام العمل السعودي؟,legal_article_retrieval,151.0,151,auto_generated_allam,pending_expert_review
+ما هي حقوق المرأة العاملة عند عودتها للعمل بعد إجازة الوضع وفقاً لنظام العمل السعودي؟,legal_article_retrieval,154.0,154,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل اتباعها عند فصل العاملة أثناء فترة حملها أو تمتعها بإجازة الوضع؟,legal_article_retrieval,155.0,155,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يمكن لصاحب العمل اتخاذها في حال عملت العاملة أثناء إجازتها المصرح بها لدى صاحب عمل آخر؟,legal_article_retrieval,157.0,157,auto_generated_allam,pending_expert_review
+ما التزام صاحب العمل تجاه العاملات اللاتي لديهن أطفال تقل أعمارهم عن ست سنوات في مكان العمل؟,legal_article_retrieval,159.0,159,auto_generated_allam,pending_expert_review
+ما هي مدة الإجازة التي تستحقها المرأة العاملة المسلمة أو غير المسلمة في حال وفاة زوجها، مع توضيح تفاصيل الإجازة لكل منهما؟,legal_article_retrieval,160.0,160,auto_generated_allam,pending_expert_review
+ما هي الأعمال التي يحظر نظام العمل السعودي تشغيل الأحداث فيها حفاظاً على صحتهم وسلامتهم؟,legal_article_retrieval,161.0,161,auto_generated_allam,pending_expert_review
+ما هي السن القانونية المسموح بها لتشغيل الأحداث في الأعمال الخفيفة وفقاً لنظام العمل السعودي؟,legal_article_retrieval,162.0,162,auto_generated_allam,pending_expert_review
+ما هي الحالات التي يجوز فيها تشغيل الأحداث خلال فترة الليل وفقاً لنظام العمل السعودي؟,legal_article_retrieval,163.0,163,auto_generated_allam,pending_expert_review
+ما هي القيود المفروضة على ساعات العمل للأحداث في المملكة العربية السعودية خلال شهر رمضان؟,legal_article_retrieval,164.0,164,auto_generated_allam,pending_expert_review
+ما المستندات التي يجب على صاحب العمل الحصول عليها من الحدث قبل بدء العمل، وفقاً لنظام العمل السعودي؟,legal_article_retrieval,165.0,165,auto_generated_allam,pending_expert_review
+ما الإجراءات التي يجب على صاحب العمل الالتزام بها عند تشغيل حدث جديد؟,legal_article_retrieval,166.0,166,auto_generated_allam,pending_expert_review
+ما هي الحالات المستثناة من تطبيق الأحكام المنصوص عليها في الباب العاشر - تشغيل الأحداث في نظام العمل السعودي؟,legal_article_retrieval,167.0,167,auto_generated_allam,pending_expert_review
+ما المقصود بعقد العمل البحري وفقاً لنظام العمل السعودي؟,legal_article_retrieval,168.0,168,auto_generated_allam,pending_expert_review
+ما المعلومات التي يجب توفرها في عقود عمل البحارة وفقًا لنظام العمل السعودي؟,legal_article_retrieval,170.0,170,auto_generated_allam,pending_expert_review
+ما المعلومات التي يجب أن يتضمنها عقد العمل البحري وفقاً لنظام العمل السعودي؟,legal_article_retrieval,171.0,171,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي يجب أن تعلن في السفينة وفي القسم المخصص للعاملين فيها وفقًا من نظام العمل السعودي؟,legal_article_retrieval,172.0,172,auto_generated_allam,pending_expert_review
+ما هي الشروط المطلوبة للعمل كبحار في النظام السعودي؟,legal_article_retrieval,173.0,173,auto_generated_allam,pending_expert_review
+ما الطريقة المعتمدة لصرف مستحقات البحار إذا كانت السفينة خارج المياه الإقليمية؟,legal_article_retrieval,174.0,174,auto_generated_allam,pending_expert_review
+ما هي حقوق البحار في حال اختصار السفر لأي سبب كان خلال مدة رحلة بحرية واحدة؟,legal_article_retrieval,175.0,175,auto_generated_allam,pending_expert_review
+ما هي الحالة التي لا يستحق فيها البحار تعويضاً عند إلغاء الرحلة البحرية، وفقاً لنظام العمل السعودي؟,legal_article_retrieval,176.0,176,auto_generated_allam,pending_expert_review
+ما هي حقوق البحار في حال أسرت السفينة أو أصبحت غير صالحة للملاحة؟,legal_article_retrieval,177.0,177,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي يجب على صاحب العمل اتخاذها لضمان سلامة البحارة على متن السفينة وفقاً للائحة تنظيم عقد العمل البحري؟,legal_article_retrieval,178.0,178,auto_generated_allam,pending_expert_review
+كم هي مدة العمل اليومية القصوى لعمال البحر على متن السفينة أثناء وجودها في عرض البحر؟,legal_article_retrieval,179.0,179,auto_generated_allam,pending_expert_review
+ما النص النظامي الذي يضمن للبحار نصيباً في مكافأات إنقاذ السفينة التي يعمل فيها، بغض النظر عن نوع أجرة عمله؟,legal_article_retrieval,180.0,180,auto_generated_allam,pending_expert_review
+ما هي حقوق ورثة البحار في حال وفاته أثناء الرحلة البحرية؟,legal_article_retrieval,181.0,181,auto_generated_allam,pending_expert_review
+ما الحالات التي تُمكّن صاحب العمل من إنهاء عقد العمل البحري دون إشعار العامل ودون تعويض؟,legal_article_retrieval,182.0,182,auto_generated_allam,pending_expert_review
+ما التزام صاحب العمل في حال انتهاء عقد العمل البحري بالنسبة للبحار؟,legal_article_retrieval,183.0,183,auto_generated_allam,pending_expert_review
+ما الحالات التي يلتزم فيها مجهز السفينة بترحيل البحار إلى بلده وفقاً لنظام العمل السعودي؟,legal_article_retrieval,184.0,184,auto_generated_allam,pending_expert_review
+ما المقصود بالعمل في المناجم والمحاجر وفقاً لنظام العمل السعودي؟,legal_article_retrieval,185.0,185,auto_generated_allam,pending_expert_review
+ما هو العمر الأدنى المسموح به لتشغيل العمال في المناجم والمحاجر وفقاً لنظام العمل السعودي؟,legal_article_retrieval,186.0,186,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه قبل السماح لأي شخص بالعمل في العمليات التي يسري عليها الباب الثاني عشر من نظام العمل السعودي؟,legal_article_retrieval,187.0,187,auto_generated_allam,pending_expert_review
+كم هي مدة ساعات العمل اليومية للعامل تحت سطح الأرض، مع احتساب الوقت الذي يستغرقه للوصول من سطح الأرض والوقت الذي يستغرقه للعودة إلى سطحها؟,legal_article_retrieval,188.0,188,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على أصحاب العمل اتخاذه لضمان عدم دخول غير العاملين في المنجم أو المحجر إلى هذه الأماكن؟,legal_article_retrieval,189.0,189,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على صاحب العمل اتخاذه لضمان سلامة العمال عند دخولهم وخروجهم من أماكن العمل؟,legal_article_retrieval,190.0,190,auto_generated_allam,pending_expert_review
+ما الإجراءات التي يجب على صاحب العمل أو المدير المسؤول اتخاذها لضمان سلامة العمال في المناجم والمحاجر؟,legal_article_retrieval,191.0,191,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يجب على صاحب العمل اتخاذها لضمان سلامة العمال في المناجم والمحاجر؟,legal_article_retrieval,192.0,192,auto_generated_allam,pending_expert_review
+ما هي الالتزامات التي يجب على صاحب العمل توفيرها في المناجم والمحاجر التي يعمل فيها أكثر من 50 عاملاً، وفقاً لنظام العمل السعودي؟,legal_article_retrieval,193.0,193,auto_generated_allam,pending_expert_review
+ما هو النظام الذي يتولى من خلاله مفتشو العمل مهامهم في المملكة العربية السعودية؟,legal_article_retrieval,194.0,194,auto_generated_allam,pending_expert_review
+ما هي المهام التي يختص بها مفتشو العمل في نظام العمل السعودي؟,legal_article_retrieval,196.0,196,auto_generated_allam,pending_expert_review
+ما هي الحقوق التي يتمتع بها مفتشو العمل في النظام السعودي عند قيامهم بمهامهم في المنشآت؟,legal_article_retrieval,198.0,198,auto_generated_allam,pending_expert_review
+ما التزام صاحب العمل تجاه المفتشين والموظفين المكلفين بتفتيش العمل في مكان العمل؟,legal_article_retrieval,199.0,199,auto_generated_allam,pending_expert_review
+ما هي الإجراءات التي يمكن لمفتش العمل طلبها في حال وجود خطر يهدد صحة العمال وسلامتهم؟,legal_article_retrieval,201.0,201,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على مفتش العمل اتخاذه عند تلقيه شكاوى بشأن مخالفات نظام العمل؟,legal_article_retrieval,202.0,202,auto_generated_allam,pending_expert_review
+ما الهدف من اشتراك الأطباء والمهندسين والكيميائيين والإختصاصيين في السلامة والصحة المهنية في عمليات التفتيش؟,legal_article_retrieval,204.0,204,auto_generated_allam,pending_expert_review
+ما العقوبة التي قد تُفرض على صاحب العمل في حال مخالفته لأحكام نظام العمل السعودي؟,legal_article_retrieval,229.0,229,auto_generated_allam,pending_expert_review
+ما هي العقوبة التي يمكن أن تفرضها الوزارة على العامل أو صاحب العمل المخالف لنظام العمل السعودي، وفقاً من نظام العمل؟,legal_article_retrieval,230.0,230,auto_generated_allam,pending_expert_review
+ما الإجراء الذي يجب على المخالف اتخاذه إذا لم يتمكن من إزالة المخالفة خلال المهلة المحددة؟,legal_article_retrieval,231.0,231,auto_generated_allam,pending_expert_review
+ما هي الجهة التي تتسلم المبالغ المحصلة من الغرامات وفقاً لنظام العمل السعودي؟,legal_article_retrieval,232.0,232,auto_generated_allam,pending_expert_review
+ما هي المكافأة التي يمكن أن يحصل عليها الموظف أو أي شخص آخر يساعد في الكشف عن مخالفات نظام العمل السعودي؟,legal_article_retrieval,233.0,233,auto_generated_allam,pending_expert_review
+السؤال: ما هي المدة المحددة التي لا تقبل بعدها أمام المحاكم العمالية أي دعوى تتعلق بمطالبة بحق من الحقوق المنصوص عليها في نظام العمل أو الناشئة عن عقد العمل، ما لم يقدم المدعي عذراً تقبله المحكمة أو يصدر من المدعى عليه إقرار بالحق؟,legal_article_retrieval,234.0,234,auto_generated_allam,pending_expert_review
+ما الإجراء الذي لا يجوز لصاحب العمل اتخاذه أثناء نظر الدعوى العمالية أمام المحكمة بشأن شروط التشغيل التي كانت سارية قبل بدء الإجراءات، مما قد يؤثر على موقف العامل في الدعوى؟,legal_article_retrieval,235.0,235,auto_generated_allam,pending_expert_review
+ما هي المدة التي يجب على الوزير إصدار القرارات واللوائح اللازمة لتنفيذ أحكام نظام العمل السعودي خلالها؟,legal_article_retrieval,243.0,243,auto_generated_allam,pending_expert_review
+ما هو النظام الذي حل محل نظام العمل والعمال السابق في المملكة العربية السعودية؟,legal_article_retrieval,244.0,244,auto_generated_allam,pending_expert_review
+ما هو تاريخ سريان نظام العمل الجديد في المملكة العربية السعودية؟,legal_article_retrieval,245.0,245,auto_generated_allam,pending_expert_review

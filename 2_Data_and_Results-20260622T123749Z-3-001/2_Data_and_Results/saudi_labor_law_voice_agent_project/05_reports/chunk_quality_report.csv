@@ -1,0 +1,21 @@
+﻿strategy,check,value,status,interpretation
+Structural Chunking,Chunk count,490,PASS,The strategy must produce at least one chunk.
+Structural Chunking,Empty chunks,0,PASS,Empty retrieval chunks are not valid for embedding.
+Structural Chunking,Missing parent_document_id,0,PASS,Every chunk must be traceable to the source document.
+Structural Chunking,Duplicated chunk_id,0,PASS,Chunk IDs must be unique before vector indexing.
+Structural Chunking,Repealed legal chunks,0,PASS,Repealed legal articles must remain archived and not indexed.
+Structural Chunking,FAQ evaluation leakage,0,PASS,FAQ held-out evaluation records must not appear in chunk files.
+Structural Chunking,Mean words per chunk,92.58,INFO,Average retrieval granularity.
+Structural Chunking,Median words per chunk,79.0,INFO,Median retrieval granularity.
+Structural Chunking,Maximum words per chunk,656,INFO,Longest chunk in this strategy.
+Structural Chunking,Structural legal article boundary preservation,0,PASS,Structural legal chunking should preserve one chunk per legal parent document.
+Fixed-size Chunking Baseline,Chunk count,490,PASS,The strategy must produce at least one chunk.
+Fixed-size Chunking Baseline,Empty chunks,0,PASS,Empty retrieval chunks are not valid for embedding.
+Fixed-size Chunking Baseline,Missing parent_document_id,0,PASS,Every chunk must be traceable to the source document.
+Fixed-size Chunking Baseline,Duplicated chunk_id,0,PASS,Chunk IDs must be unique before vector indexing.
+Fixed-size Chunking Baseline,Repealed legal chunks,0,PASS,Repealed legal articles must remain archived and not indexed.
+Fixed-size Chunking Baseline,FAQ evaluation leakage,0,PASS,FAQ held-out evaluation records must not appear in chunk files.
+Fixed-size Chunking Baseline,Mean words per chunk,87.2,INFO,Average retrieval granularity.
+Fixed-size Chunking Baseline,Median words per chunk,73.0,INFO,Median retrieval granularity.
+Fixed-size Chunking Baseline,Maximum words per chunk,500,INFO,Longest chunk in this strategy.
+Fixed-size Chunking Baseline,Configured maximum word limit,500 / 500,PASS,Fixed-size baseline must respect the configured maximum word size.

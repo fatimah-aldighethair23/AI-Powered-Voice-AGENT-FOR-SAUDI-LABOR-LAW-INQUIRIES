@@ -1,0 +1,2 @@
+﻿best_chunking_strategy,best_embedding_model,best_retriever,alpha,total_questions,failures_at_1,failures_at_5,failure_rate_at_5
+structural,e5_large,hybrid_reranker,0.8,155,13,1,0.0065

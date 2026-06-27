@@ -1,0 +1,7 @@
+﻿metric,structural,fixed_size,absolute_difference,relative_difference_pct,academic_meaning
+Chunk count,783.0,788.0,5.0,0.64,"Measures indexing volume, not retrieval quality."
+Median characters,393.0,393.5,0.5,0.13,Measures typical chunk size.
+Acceptable length %,94.64,94.16,0.480000000000004,0.51,Measures how many chunks fall within the target length range.
+Short chunks %,3.45,3.43,0.020000000000000018,0.58,Measures potentially under-informative chunks.
+Long chunks %,1.92,2.41,0.4900000000000002,22.63,Measures potentially overlong chunks.
+Duplicate chunks %,0.0,0.0,0.0,0.0,Measures redundancy in the vector database.

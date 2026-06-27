@@ -1,0 +1,12 @@
+﻿check,status,evidence
+required_file::stage03_final_summary_table.csv,PASS,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\08_stage03_rag_results\stage03_final_summary_table.csv
+required_file::stage03_final_retrieval_report.json,PASS,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\08_stage03_rag_results\stage03_final_retrieval_report.json
+required_file::chroma_collections_manifest.csv,PASS,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\08_stage03_rag_results\chroma_collections_manifest.csv
+required_file::retrieval_evaluation_summary.csv,PASS,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\08_stage03_rag_results\retrieval_evaluation_summary.csv
+required_file::source_aware_retrieval_summary_by_type.csv,PASS,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\08_stage03_rag_results\source_aware_retrieval_summary_by_type.csv
+required_file::source_aware_diagnostic_summary_by_type.csv,PASS,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\08_stage03_rag_results\source_aware_diagnostic_summary_by_type.csv
+required_file::stage03_rag_retriever_context_examples.xlsx,PASS,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\08_stage03_rag_results\stage03_rag_retriever_context_examples.xlsx
+best_config_is_structural_bge_m3_hybrid_reranker,PASS,"{""rank"": 1, ""chunking_strategy"": ""structural"", ""embedding_model"": ""bge_m3"", ""retriever"": ""hybrid_reranker"", ""alpha"": 0.8, ""questions"": 235, ""recall_at_1"": 0.7617, ""recall_at_3"": 0.9277, ""recall_at_5"": 0.9745, ""mrr"": 0.8472, ""ndcg_at_5"": 0.8773, ""avg_latency_sec"": 0.407, ""selection_basis"": ""Final Stage 03 summary after ChromaDB retrieval, hybrid retrieval, and reranker evaluation.""}"
+headline_recall_at_5_ge_0_97,PASS,Recall@5=0.9745
+headline_mrr_ge_0_84,PASS,MRR=0.8472
+chromadb_collections_complete,PASS,"[{""collection_name"":""rag_structural_e5_large"",""records_expected"":722,""records_in_chroma"":722,""status"":""OK""},{""collection_name"":""rag_structural_bge_m3"",""records_expected"":722,""records_in_chroma"":722,""status"":""OK""},{""collection_name"":""rag_fixed_size_e5_large"",""records_expected"":719,""records_in_chroma"":719,""status"":""OK""},{""collection_name"":""rag_fixed_size_bge_m3"",""records_expected"":719,""records_in_chroma"":719,""status"":""OK""}]"

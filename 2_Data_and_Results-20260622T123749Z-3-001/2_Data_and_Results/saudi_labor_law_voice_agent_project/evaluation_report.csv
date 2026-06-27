@@ -1,0 +1,14 @@
+﻿Module,Metric,Result,Status,Source
+ASR,WER,0.198,Measured,Stage 07
+ASR,CER,0.046,Measured,Stage 07
+ASR,Latency,0.67 s (large-v3),Measured,Stage 09
+RAG,Recall@k,R@1 0.836 | R@3 0.940 | R@5 0.965,Measured,Stage 03/04
+RAG,MRR,0.890,Measured,Stage 03/04
+RAG,nDCG@5 (bonus),0.909,Measured,Stage 03/04
+RAG,Precision@k,not informative (single gold),N/A - use Recall,-
+LLM,Accuracy,ALLaM 0.73 | Qwen 0.69,Measured,Stage 05
+LLM,Faithfulness,ALLaM 0.84 | Qwen 0.90,Measured,Stage 06
+LLM,Hallucination,0.09 proxy | RAG cuts wrong-cite 25%->4%,Measured,Stage 05/08
+TTS,Intelligibility,proxy: WER 0.20 / CER 0.05 round-trip,Proxy,Stage 07
+TTS,MOS,requires human listening panel,Future Work,-
+TTS,Naturalness,requires human rating,Future Work,-

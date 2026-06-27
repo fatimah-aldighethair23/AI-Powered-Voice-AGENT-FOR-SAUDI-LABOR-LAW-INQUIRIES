@@ -1,0 +1,11 @@
+﻿سؤال المستخدم,نوع النية,مسار المعالجة,هل يحتاج RAG؟,قرار الإرسال إلى LLM,موثوقية الاسترجاع,درجة أول نتيجة,زمن الاسترجاع,الرد المباشر,سبب القرار
+السلام عليكم,greeting_or_small_talk,direct_response,لا يحتاج RAG,لا يُرسل إلى LLM,غير مطلوب,,,أهلاً وسهلاً، معك المساعد الذكي لنظام العمل السعودي. كيف أقدر أساعدك؟,Greeting or small-talk detected.
+كيف الحال؟,greeting_or_small_talk,direct_response,لا يحتاج RAG,لا يُرسل إلى LLM,غير مطلوب,,,أهلاً وسهلاً، معك المساعد الذكي لنظام العمل السعودي. كيف أقدر أساعدك؟,Greeting or small-talk detected.
+مين معي؟,agent_identity,direct_response,لا يحتاج RAG,لا يُرسل إلى LLM,غير مطلوب,,,معك وكيل صوتي ذكي مخصص للإجابة عن الاستفسارات المتعلقة بنظام العمل السعودي.,Agent identity question detected.
+وش تقدر تساعدني؟,agent_capability,direct_response,لا يحتاج RAG,لا يُرسل إلى LLM,غير مطلوب,,,أقدر أساعدك في أسئلة نظام العمل السعودي مثل فترة التجربة، ساعات العمل، الإجازات، الاستقالة، ونهاية الخدمة.,Capability question detected.
+كم مدة فترة التجربة؟,labor_law_question,rag_retrieval,يحتاج RAG,يُرسل إلى LLM,موثوق,0.9874355792999268,0.319530725479126,—,Labor-law keyword detected; send to RAG retrieval.
+متى يستحق العامل مكافأة نهاية الخدمة؟,labor_law_question,rag_retrieval,يحتاج RAG,يُرسل إلى LLM,موثوق,0.9579455852508545,0.3138401508331299,—,Labor-law keyword detected; send to RAG retrieval.
+كم عدد ساعات العمل؟,labor_law_question,rag_retrieval,يحتاج RAG,يُرسل إلى LLM,موثوق,0.9989117383956909,0.30972814559936523,—,Labor-law keyword detected; send to RAG retrieval.
+كم سعر العقار في الرياض؟,out_of_scope,safe_rejection,لا يحتاج RAG,لا يُرسل إلى LLM,غير مطلوب,,,عذراً، هذا السؤال خارج نطاق اختصاصي. أستطيع مساعدتك فقط في الاستفسارات المتعلقة بنظام العمل السعودي.,Clearly outside Saudi labor law scope.
+ما حكم الطلاق؟,out_of_scope,safe_rejection,لا يحتاج RAG,لا يُرسل إلى LLM,غير مطلوب,,,عذراً، هذا السؤال خارج نطاق اختصاصي. أستطيع مساعدتك فقط في الاستفسارات المتعلقة بنظام العمل السعودي.,Clearly outside Saudi labor law scope.
+هل يحق للعامل الحصول على سيارة من الشركة؟,labor_law_question,rag_retrieval_blocked_by_reliability_gate,يحتاج RAG,لا يُرسل إلى LLM,غير موثوق,0.00893307663500309,0.3170144557952881,عذرًا، لم أجد نصًا موثوقًا في نظام العمل السعودي يدعم إجابة دقيقة على هذا السؤال. يمكنك إعادة صياغة السؤال أو طرح سؤال م,RAG retrieval score is below the reliability threshold.

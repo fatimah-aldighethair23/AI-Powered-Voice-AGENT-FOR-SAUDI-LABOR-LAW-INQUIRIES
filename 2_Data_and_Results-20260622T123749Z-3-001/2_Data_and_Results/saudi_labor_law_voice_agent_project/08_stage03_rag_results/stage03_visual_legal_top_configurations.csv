@@ -1,0 +1,9 @@
+﻿chunking_strategy,embedding_model,retriever,alpha,questions,recall_at_1,recall_at_3,recall_at_5,mrr,ndcg_at_5,avg_latency_sec,label
+structural,e5_large,hybrid_reranker,0.8,24,0.5417,0.9167,0.9583,0.7236,0.7861,0.3199,structural | e5_large | hybrid_reranker | a=0.8
+structural,bge_m3,hybrid_reranker,0.8,24,0.5417,0.875,0.9583,0.7201,0.7832,0.3067,structural | bge_m3 | hybrid_reranker | a=0.8
+fixed_size,bge_m3,hybrid_reranker,0.8,24,0.5417,0.875,0.9167,0.7118,0.7671,0.3054,fixed_size | bge_m3 | hybrid_reranker | a=0.8
+fixed_size,e5_large,hybrid_reranker,0.8,24,0.5417,0.875,0.9167,0.7118,0.7671,0.3201,fixed_size | e5_large | hybrid_reranker | a=0.8
+fixed_size,bge_m3,hybrid,0.9,24,0.4583,0.7917,0.875,0.6229,0.6893,0.0268,fixed_size | bge_m3 | hybrid | a=0.9
+fixed_size,bge_m3,dense,,24,0.375,0.75,0.9583,0.6125,0.6995,0.018,fixed_size | bge_m3 | dense | a=
+structural,bge_m3,dense,,24,0.3333,0.6667,0.9583,0.5618,0.6601,0.017,structural | bge_m3 | dense | a=
+structural,bge_m3,hybrid,0.9,24,0.3333,0.7083,0.875,0.5396,0.6235,0.0246,structural | bge_m3 | hybrid | a=0.9

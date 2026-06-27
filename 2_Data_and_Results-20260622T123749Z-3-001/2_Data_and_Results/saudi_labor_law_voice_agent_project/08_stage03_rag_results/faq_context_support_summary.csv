@@ -1,0 +1,6 @@
+﻿Metric,Value,Interpretation
+FAQ diagnostic questions,121.0,Held-out FAQ questions used for context-support analysis only.
+Mean FAQ support score,0.5298,Average lexical/semantic support between retrieved context and expected FAQ answer.
+Strong or Moderate support rate,0.9835,Share of FAQ questions with retrieved context showing moderate or strong support.
+Low support rate,0.0,Share of FAQ questions with weak context support and requiring later LLM-level evaluation.
+Average latency sec,0.6372,Average retrieval latency for FAQ diagnostic questions.

@@ -1,0 +1,3 @@
+[all_questions] allam_7b vs qwen_7b: McNemar p=0.625, accuracy diff=+4.4 pp (95%CI [-4.4, +13.3]) -> NOT significant (difference within chance range).
+[legal_only] allam_7b vs qwen_7b: McNemar p=1.0, accuracy diff=-5.9 pp (95%CI [-17.6, +0.0]) -> NOT significant (difference within chance range).
+[faq_only] allam_7b vs qwen_7b: McNemar p=0.25, accuracy diff=+21.4 pp (95%CI [+0.0, +42.9]) -> NOT significant (difference within chance range).

@@ -1,0 +1,6 @@
+﻿dataset,rows,columns,empty_text_rows,duplicate_text_rows,avg_text_chars,median_text_chars,max_text_chars
+KB experiment no leakage,783,21,211,212,183.02,109.0,10851
+KB full production,914,21,211,213,186.65,116.5,10851
+Evaluation set,136,16,0,0,292.38,246.0,1390
+Structural chunks,783,20,0,0,468.1,393.0,11038
+Fixed-size chunks,788,20,0,0,467.83,393.5,2881

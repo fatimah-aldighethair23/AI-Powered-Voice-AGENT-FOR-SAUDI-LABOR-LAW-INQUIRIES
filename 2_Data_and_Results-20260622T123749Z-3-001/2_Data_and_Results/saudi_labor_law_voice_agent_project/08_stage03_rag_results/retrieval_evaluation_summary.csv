@@ -1,0 +1,9 @@
+﻿rank,chunking_strategy,embedding_model,retriever,alpha,questions,recall_at_1,recall_at_3,recall_at_5,mrr,ndcg_at_5,avg_latency_sec,selection_score
+1,structural,e5_large,hybrid_reranker,0.8,155,0.9161,0.9871,0.9935,0.9508,0.9621,0.3361,0.972275
+2,structural,bge_m3,hybrid_reranker,0.8,155,0.9161,0.9806,0.9935,0.9502,0.9617,0.3222,0.971985
+3,fixed_size,bge_m3,hybrid_reranker,0.8,155,0.9161,0.9806,0.9871,0.9489,0.9592,0.3214,0.96815
+4,fixed_size,e5_large,hybrid_reranker,0.8,155,0.9161,0.9806,0.9871,0.9489,0.9592,0.327,0.96815
+5,fixed_size,bge_m3,hybrid,0.9,155,0.9097,0.9677,0.9806,0.9384,0.9495,0.0373,0.95961
+6,structural,bge_m3,hybrid,0.9,155,0.8903,0.9548,0.9806,0.9255,0.9393,0.0376,0.953055
+7,fixed_size,bge_m3,hybrid,0.8,155,0.8774,0.9548,0.9742,0.9142,0.9293,0.0392,0.94422
+8,structural,bge_m3,hybrid,0.8,155,0.8774,0.9419,0.9677,0.9094,0.9239,0.0392,0.938535

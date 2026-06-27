@@ -1,0 +1,2 @@
+﻿evaluation_questions,experiment_configurations,embedding_models_loaded,reranker_loaded,chromadb_used,chroma_collections,best_chunking_strategy,best_embedding_model,best_retriever,best_alpha,best_recall_at_1,best_recall_at_3,best_recall_at_5,best_mrr,best_ndcg_at_5,best_avg_latency_sec,suggested_reliability_threshold
+155,22,"e5_large, bge_m3",True,True,4,structural,e5_large,hybrid_reranker,0.8,0.9161,0.9871,0.9935,0.9508,0.9621,0.3361,0.65

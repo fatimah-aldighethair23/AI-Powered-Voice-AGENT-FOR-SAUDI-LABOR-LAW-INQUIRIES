@@ -1,0 +1,38 @@
+[
+  {
+    "corpus": "structural",
+    "model_key": "e5_large",
+    "collection_name": "rag_structural_e5_large",
+    "records_expected": 490,
+    "records_in_chroma": 490,
+    "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+    "status": "OK"
+  },
+  {
+    "corpus": "structural",
+    "model_key": "bge_m3",
+    "collection_name": "rag_structural_bge_m3",
+    "records_expected": 490,
+    "records_in_chroma": 490,
+    "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+    "status": "OK"
+  },
+  {
+    "corpus": "fixed_size",
+    "model_key": "e5_large",
+    "collection_name": "rag_fixed_size_e5_large",
+    "records_expected": 490,
+    "records_in_chroma": 490,
+    "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+    "status": "OK"
+  },
+  {
+    "corpus": "fixed_size",
+    "model_key": "bge_m3",
+    "collection_name": "rag_fixed_size_bge_m3",
+    "records_expected": 490,
+    "records_in_chroma": 490,
+    "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+    "status": "OK"
+  }
+]

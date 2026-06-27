@@ -1,0 +1,5 @@
+﻿Chunking Strategy,Embedding Model,Documents / Chunks,Vector Dimension,Embedding Matrix Shape,Estimated Memory MB,Cache File,Cache Saved,Status
+fixed_size,bge_m3,490,1024,"(490, 1024)",1.91,embeddings_fixed_size_bge_m3.npy,Yes,OK
+fixed_size,e5_large,490,1024,"(490, 1024)",1.91,embeddings_fixed_size_e5_large.npy,Yes,OK
+structural,bge_m3,490,1024,"(490, 1024)",1.91,embeddings_structural_bge_m3.npy,Yes,OK
+structural,e5_large,490,1024,"(490, 1024)",1.91,embeddings_structural_e5_large.npy,Yes,OK

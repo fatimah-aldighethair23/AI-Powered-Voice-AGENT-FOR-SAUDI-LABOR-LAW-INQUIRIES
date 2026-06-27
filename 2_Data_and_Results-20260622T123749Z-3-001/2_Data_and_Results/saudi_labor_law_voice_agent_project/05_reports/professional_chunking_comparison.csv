@@ -1,0 +1,3 @@
+﻿chunking_strategy,chunk_count,avg_chars,median_chars,p95_chars,avg_words,acceptable_length_pct,short_chunks_pct,long_chunks_pct,empty_chunks,duplicate_chunks,duplicate_pct
+Structural chunking,783,468.1,393.0,938.9,80.65,94.64,3.45,1.92,0,0,0.0
+Fixed-size chunking,788,467.83,393.5,1001.95,80.64,94.16,3.43,2.41,0,0,0.0

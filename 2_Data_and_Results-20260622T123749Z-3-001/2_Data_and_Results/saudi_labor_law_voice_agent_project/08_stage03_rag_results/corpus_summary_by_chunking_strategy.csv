@@ -1,0 +1,3 @@
+﻿Chunking Strategy,Total Records,Legal Article Chunks,FAQ Chunks,Legal %,FAQ %,Mean Retrieval Words,Median Retrieval Words,Max Retrieval Words,Status,Interpretation
+structural,490,211,279,43.06,56.94,130.29,120.0,680,PASS,Corpus is ready for embeddings and ChromaDB indexing.
+fixed_size,490,212,278,43.27,56.73,124.89,115.0,524,PASS,Corpus is ready for embeddings and ChromaDB indexing.

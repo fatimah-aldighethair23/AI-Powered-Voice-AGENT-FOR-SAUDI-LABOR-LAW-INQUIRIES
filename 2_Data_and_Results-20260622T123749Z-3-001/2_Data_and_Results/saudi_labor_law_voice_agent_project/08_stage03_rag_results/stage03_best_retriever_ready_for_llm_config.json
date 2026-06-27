@@ -1,0 +1,9 @@
+{
+  "best_chunking_strategy": "structural",
+  "best_embedding_model": "e5_large",
+  "best_retriever": "hybrid_reranker",
+  "best_alpha": 0.8,
+  "top_k": 5,
+  "suggested_reliability_threshold": 0.7492,
+  "notes": "This configuration is ready for Stage 04 LLM generation. It prepares retrieved context only and does not generate answers."
+}

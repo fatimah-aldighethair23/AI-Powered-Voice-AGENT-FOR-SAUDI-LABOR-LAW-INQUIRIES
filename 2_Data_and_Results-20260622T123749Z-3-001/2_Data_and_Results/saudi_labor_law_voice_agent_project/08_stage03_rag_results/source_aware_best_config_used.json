@@ -1,0 +1,14 @@
+{
+  "rank": 1,
+  "chunking_strategy": "structural",
+  "embedding_model": "bge_m3",
+  "retriever": "hybrid_reranker",
+  "alpha": 0.8,
+  "questions": 235,
+  "recall_at_1": 0.7617,
+  "recall_at_3": 0.9277,
+  "recall_at_5": 0.9745,
+  "mrr": 0.8472,
+  "ndcg_at_5": 0.8773,
+  "avg_latency_sec": 0.407
+}

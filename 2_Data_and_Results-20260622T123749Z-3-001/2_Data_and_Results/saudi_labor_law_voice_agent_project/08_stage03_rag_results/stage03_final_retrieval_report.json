@@ -1,0 +1,86 @@
+{
+  "project_dir": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project",
+  "stage03_dir": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\08_stage03_rag_results",
+  "evaluation_questions": 155,
+  "retrieval_experiments": 22,
+  "embedding_models_loaded": [
+    "e5_large",
+    "bge_m3"
+  ],
+  "reranker_loaded": true,
+  "chromadb_required": true,
+  "chromadb_vector_dir": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+  "chromadb_collections": [
+    {
+      "corpus": "structural",
+      "model_key": "e5_large",
+      "collection_name": "rag_structural_e5_large",
+      "records_expected": 490,
+      "records_in_chroma": 490,
+      "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+      "status": "OK"
+    },
+    {
+      "corpus": "structural",
+      "model_key": "bge_m3",
+      "collection_name": "rag_structural_bge_m3",
+      "records_expected": 490,
+      "records_in_chroma": 490,
+      "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+      "status": "OK"
+    },
+    {
+      "corpus": "fixed_size",
+      "model_key": "e5_large",
+      "collection_name": "rag_fixed_size_e5_large",
+      "records_expected": 490,
+      "records_in_chroma": 490,
+      "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+      "status": "OK"
+    },
+    {
+      "corpus": "fixed_size",
+      "model_key": "bge_m3",
+      "collection_name": "rag_fixed_size_bge_m3",
+      "records_expected": 490,
+      "records_in_chroma": 490,
+      "vector_db_path": "C:\\Users\\PC\\Desktop\\data collection code\\saudi_labor_law_voice_agent_project\\06_vector_db",
+      "status": "OK"
+    }
+  ],
+  "best_config": {
+    "rank": 1,
+    "chunking_strategy": "structural",
+    "embedding_model": "e5_large",
+    "retriever": "hybrid_reranker",
+    "alpha": 0.8,
+    "questions": 155,
+    "recall_at_1": 0.9161,
+    "recall_at_3": 0.9871,
+    "recall_at_5": 0.9935,
+    "mrr": 0.9508,
+    "ndcg_at_5": 0.9621,
+    "avg_latency_sec": 0.3361
+  },
+  "suggested_reliability_threshold": 0.7492,
+  "input_safety_checks": [
+    {
+      "chunking_strategy": "Structural",
+      "chunks": 490,
+      "empty_chunks": 0,
+      "duplicated_chunk_ids": 0,
+      "repealed_legal_chunks": 0,
+      "faq_evaluation_leakage": 0,
+      "status": "OK"
+    },
+    {
+      "chunking_strategy": "Fixed-size",
+      "chunks": 490,
+      "empty_chunks": 0,
+      "duplicated_chunk_ids": 0,
+      "repealed_legal_chunks": 0,
+      "faq_evaluation_leakage": 0,
+      "status": "OK"
+    }
+  ]
+}

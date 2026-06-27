@@ -1,0 +1,9 @@
+﻿component,config,seconds
+ASR (large-v3),current,0.73
+Retrieval,current,0.24
+LLM generation,current,2.04
+TTS,current,1.06
+ASR (small),optimized,0.41
+Retrieval,optimized,0.24
+LLM (capped),optimized,1.32
+TTS,optimized,1.06

@@ -1,0 +1,5 @@
+﻿Analysis Set,Records,Percentage,Interpretation
+Total legal questions,24,100.0,Gold-indexable legal article questions used for primary retrieval evaluation.
+Top-1 failures,9,37.5,Questions where the first retrieved item was not the gold legal article.
+Top-5 failures,1,4.17,Questions where the gold legal article did not appear in the top 5 retrieved results.
+Top-5 successes,23,95.83,Questions where the correct legal article appeared within the top 5 retrieved results.

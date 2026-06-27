@@ -1,0 +1,5 @@
+﻿corpus,model_key,collection_name,records_expected,records_in_chroma,vector_db_path,status
+structural,e5_large,rag_structural_e5_large,490,490,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\06_vector_db,OK
+structural,bge_m3,rag_structural_bge_m3,490,490,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\06_vector_db,OK
+fixed_size,e5_large,rag_fixed_size_e5_large,490,490,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\06_vector_db,OK
+fixed_size,bge_m3,rag_fixed_size_bge_m3,490,490,C:\Users\PC\Desktop\data collection code\saudi_labor_law_voice_agent_project\06_vector_db,OK

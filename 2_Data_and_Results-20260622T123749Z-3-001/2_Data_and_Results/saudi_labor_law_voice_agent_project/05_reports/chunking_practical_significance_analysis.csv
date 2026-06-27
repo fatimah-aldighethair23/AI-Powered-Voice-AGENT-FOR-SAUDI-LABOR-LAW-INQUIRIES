@@ -1,0 +1,7 @@
+﻿metric,unit,structural,fixed_size,absolute_difference,relative_difference_pct,threshold_rule,practically_significant,academic_meaning
+Chunk count,chunks,783.0,788.0,5.0,0.64,Significant if relative difference >= 5%,False,Indexing volume only; not a direct retrieval-quality indicator.
+Median characters,characters,393.0,393.5,0.5,0.13,Significant if relative difference >= 10%,False,Typical chunk size.
+Acceptable length,percentage points,94.64,94.16,0.480000000000004,0.51,Significant if absolute difference >= 2 percentage points,False,Share of chunks within the target length range.
+Short chunks,percentage points,3.45,3.43,0.020000000000000018,0.58,Significant if absolute difference >= 2 percentage points,False,Potentially under-informative chunks.
+Long chunks,percentage points,1.92,2.41,0.4900000000000002,22.63,Significant if absolute difference >= 2 percentage points,False,Potentially overlong chunks.
+Duplicate chunks,percentage points,0.0,0.0,0.0,0.0,Significant if absolute difference >= 1 percentage point,False,Redundancy in the vector database.

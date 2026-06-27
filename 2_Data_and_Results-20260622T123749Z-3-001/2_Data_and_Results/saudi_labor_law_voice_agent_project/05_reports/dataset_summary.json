@@ -1,0 +1,146 @@
+{
+  "Clean legal article records - audit dataset": {
+    "category": "Legal Dataset",
+    "value": 249,
+    "status": "OK",
+    "interpretation": "All cleaned legal records are retained for auditability, including legal variants such as repeated articles."
+  },
+  "Unique numeric legal articles": {
+    "category": "Legal Dataset",
+    "value": 245,
+    "status": "OK",
+    "interpretation": "Represents the official numeric sequence of Saudi Labor Law articles."
+  },
+  "Legal repeated numeric labels kept as variants": {
+    "category": "Legal Dataset",
+    "value": 4,
+    "status": "OK",
+    "interpretation": "Repeated numeric labels are preserved because legal labels such as 'مكرر' represent valid legal variants, not duplicate rows."
+  },
+  "Active legal articles allowed for RAG": {
+    "category": "Legal Dataset",
+    "value": 211,
+    "status": "OK",
+    "interpretation": "Only active legal articles are allowed inside the RAG indexing knowledge base."
+  },
+  "Repealed legal articles archived only": {
+    "category": "Legal Dataset",
+    "value": 38,
+    "status": "OK",
+    "interpretation": "Repealed legal articles are retained for transparency but excluded from retrieval indexing."
+  },
+  "Repealed articles inside experimental KB": {
+    "category": "RAG Safety",
+    "value": 0,
+    "status": "OK",
+    "interpretation": "Must be zero to prevent retrieval from repealed legal provisions."
+  },
+  "Clean FAQ records": {
+    "category": "FAQ Dataset",
+    "value": 703,
+    "status": "OK",
+    "interpretation": "FAQ records after cleaning and duplicate removal."
+  },
+  "FAQ indexing records": {
+    "category": "FAQ Dataset",
+    "value": 357,
+    "status": "OK",
+    "interpretation": "FAQ records included in the experimental knowledge base."
+  },
+  "FAQ evaluation records held out": {
+    "category": "FAQ Dataset",
+    "value": 112,
+    "status": "OK",
+    "interpretation": "FAQ records reserved for evaluation and excluded from the experimental KB."
+  },
+  "FAQ leakage between indexing and evaluation": {
+    "category": "Evaluation Safety",
+    "value": 0,
+    "status": "OK",
+    "interpretation": "Must be zero to avoid inflated retrieval scores."
+  },
+  "FAQ evaluation records leaked into experimental KB": {
+    "category": "Evaluation Safety",
+    "value": 0,
+    "status": "OK",
+    "interpretation": "Must be zero because evaluation questions should not appear in the experimental retrieval base."
+  },
+  "Experimental KB records": {
+    "category": "Knowledge Base",
+    "value": 568,
+    "status": "OK",
+    "interpretation": "Experimental KB contains active legal articles and FAQ indexing records only."
+  },
+  "Full production KB records": {
+    "category": "Knowledge Base",
+    "value": 682,
+    "status": "OK",
+    "interpretation": "Production KB contains active legal articles and all clean FAQ records after evaluation."
+  },
+  "Structural chunks": {
+    "category": "Chunking",
+    "value": 569,
+    "status": "OK",
+    "interpretation": "Chunks generated using the safe structural chunking strategy."
+  },
+  "Fixed-size chunks": {
+    "category": "Chunking",
+    "value": 569,
+    "status": "OK",
+    "interpretation": "Chunks generated using the fixed-size baseline strategy."
+  },
+  "Repealed legal chunks - structural": {
+    "category": "Chunking Safety",
+    "value": 0,
+    "status": "OK",
+    "interpretation": "Must be zero to ensure repealed legal articles were not chunked for retrieval."
+  },
+  "Repealed legal chunks - fixed-size": {
+    "category": "Chunking Safety",
+    "value": 0,
+    "status": "OK",
+    "interpretation": "Must be zero to ensure repealed legal articles were not chunked in the baseline."
+  },
+  "Total evaluation questions": {
+    "category": "Evaluation Dataset",
+    "value": 150,
+    "status": "OK",
+    "interpretation": "Unified evaluation dataset including FAQ, legal article questions, and out-of-scope tests."
+  },
+  "FAQ evaluation questions": {
+    "category": "Evaluation Dataset",
+    "value": 111,
+    "status": "OK",
+    "interpretation": "Held-out FAQ questions used for retrieval evaluation."
+  },
+  "Legal article evaluation questions": {
+    "category": "Evaluation Dataset",
+    "value": 24,
+    "status": "OK",
+    "interpretation": "Manual legal questions linked to gold legal article references."
+  },
+  "Out-of-scope evaluation questions": {
+    "category": "Evaluation Dataset",
+    "value": 15,
+    "status": "OK",
+    "interpretation": "Questions used to test refusal behavior outside Saudi Labor Law."
+  },
+  "Unique legal chapters": {
+    "category": "Metadata Coverage",
+    "value": 16,
+    "status": "OK",
+    "interpretation": "Number of unique legal chapters represented in the cleaned legal dataset."
+  },
+  "Unique FAQ sectors": {
+    "category": "Metadata Coverage",
+    "value": 5,
+    "status": "OK",
+    "interpretation": "Number of unique FAQ sectors represented after cleaning."
+  },
+  "Unique FAQ subsites": {
+    "category": "Metadata Coverage",
+    "value": 1,
+    "status": "OK",
+    "interpretation": "Number of unique FAQ subsites represented after cleaning."
+  }
+}

@@ -1,0 +1,11 @@
+﻿figure,purpose
+01_data_completeness_vs_rag_safety_policy.png,Compare audit completeness with RAG indexing safety.
+02_legal_article_status_distribution.png,Show active vs repealed legal article status.
+03_top_active_legal_chapters_by_article_count.png,Show legal coverage available for retrieval after excluding repealed articles.
+04_experiment_kb_composition_active_only.png,Show experimental KB composition by source type.
+05_faq_split_no_leakage.png,Validate FAQ split and leakage prevention.
+06_top_faq_sectors_by_question_count.png,Show FAQ sector distribution and possible imbalance.
+07_indexed_text_length_distribution_by_source_type.png,Compare indexed text lengths by source type.
+08_chunks_count_by_strategy.png,Compare number of chunks by chunking strategy.
+09_chunk_word_length_distribution_by_strategy.png,Compare chunk length distributions by strategy.
+10_evaluation_dataset_composition.png,Show evaluation dataset composition.

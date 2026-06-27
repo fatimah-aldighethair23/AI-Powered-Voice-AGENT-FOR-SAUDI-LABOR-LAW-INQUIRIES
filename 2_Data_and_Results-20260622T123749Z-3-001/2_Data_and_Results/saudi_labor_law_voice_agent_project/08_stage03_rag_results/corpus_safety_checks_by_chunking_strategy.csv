@@ -1,0 +1,9 @@
+﻿Chunking Strategy,Safety Check,Value,Expected,Status,Interpretation
+structural,Empty retrieval_text,0,0,PASS,Every chunk must have retrieval-ready text.
+structural,Missing parent_document_id,0,0,PASS,Every chunk must remain linked to its original source document.
+structural,Duplicated chunk_id,0,0,PASS,Each chunk must have a unique identifier.
+structural,Repealed legal chunks,0,0,PASS,Repealed legal provisions must not be indexed for retrieval.
+fixed_size,Empty retrieval_text,0,0,PASS,Every chunk must have retrieval-ready text.
+fixed_size,Missing parent_document_id,0,0,PASS,Every chunk must remain linked to its original source document.
+fixed_size,Duplicated chunk_id,0,0,PASS,Each chunk must have a unique identifier.
+fixed_size,Repealed legal chunks,0,0,PASS,Repealed legal provisions must not be indexed for retrieval.

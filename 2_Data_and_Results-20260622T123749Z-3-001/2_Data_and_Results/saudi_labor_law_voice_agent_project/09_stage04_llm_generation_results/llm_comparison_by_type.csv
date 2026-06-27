@@ -1,0 +1,9 @@
+﻿model_key,model_name,eval_type,questions,answer_accuracy,answered_rate,refusal_rate,citation_hit_rate,avg_groundedness,hallucination_proxy_rate,avg_voice_suitability,avg_total_latency_sec
+allam_7b,ALLaM-7B-Instruct-preview,faq_retrieval,14,0.4286,0.5,0.5,,0.45,0.0714,1.0,1.0465
+qwen_7b,Qwen2.5-7B-Instruct,faq_retrieval,14,0.2143,0.2857,0.7143,,0.3248,0.0714,0.9821,1.4663
+qwen_7b,Qwen2.5-7B-Instruct,legal_article_retrieval,17,0.8235,0.8824,0.1176,0.625,0.7133,0.0588,1.0,2.8465
+allam_7b,ALLaM-7B-Instruct-preview,legal_article_retrieval,17,0.7647,0.8824,0.1176,0.625,0.6984,0.0588,1.0,1.9776
+allam_7b,ALLaM-7B-Instruct-preview,out_of_scope,12,1.0,0.0,1.0,,0.075,0.0,1.0,0.0516
+qwen_7b,Qwen2.5-7B-Instruct,out_of_scope,12,1.0,0.0,1.0,,0.075,0.0,1.0,0.051
+allam_7b,ALLaM-7B-Instruct-preview,small_talk,2,1.0,1.0,0.0,,0.0,1.0,1.0,0.0001
+qwen_7b,Qwen2.5-7B-Instruct,small_talk,2,1.0,1.0,0.0,,0.0,1.0,1.0,0.0001

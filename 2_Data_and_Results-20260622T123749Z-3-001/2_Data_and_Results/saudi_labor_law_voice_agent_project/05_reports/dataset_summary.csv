@@ -1,0 +1,25 @@
+﻿category,metric,value,status,interpretation
+Legal Dataset,Clean legal article records - audit dataset,249,OK,"All cleaned legal records are retained for auditability, including legal variants such as repeated articles."
+Legal Dataset,Unique numeric legal articles,245,OK,Represents the official numeric sequence of Saudi Labor Law articles.
+Legal Dataset,Legal repeated numeric labels kept as variants,4,OK,"Repeated numeric labels are preserved because legal labels such as 'مكرر' represent valid legal variants, not duplicate rows."
+Legal Dataset,Active legal articles allowed for RAG,211,OK,Only active legal articles are allowed inside the RAG indexing knowledge base.
+Legal Dataset,Repealed legal articles archived only,38,OK,Repealed legal articles are retained for transparency but excluded from retrieval indexing.
+RAG Safety,Repealed articles inside experimental KB,0,OK,Must be zero to prevent retrieval from repealed legal provisions.
+FAQ Dataset,Clean FAQ records,703,OK,FAQ records after cleaning and duplicate removal.
+FAQ Dataset,FAQ indexing records,357,OK,FAQ records included in the experimental knowledge base.
+FAQ Dataset,FAQ evaluation records held out,112,OK,FAQ records reserved for evaluation and excluded from the experimental KB.
+Evaluation Safety,FAQ leakage between indexing and evaluation,0,OK,Must be zero to avoid inflated retrieval scores.
+Evaluation Safety,FAQ evaluation records leaked into experimental KB,0,OK,Must be zero because evaluation questions should not appear in the experimental retrieval base.
+Knowledge Base,Experimental KB records,568,OK,Experimental KB contains active legal articles and FAQ indexing records only.
+Knowledge Base,Full production KB records,682,OK,Production KB contains active legal articles and all clean FAQ records after evaluation.
+Chunking,Structural chunks,569,OK,Chunks generated using the safe structural chunking strategy.
+Chunking,Fixed-size chunks,569,OK,Chunks generated using the fixed-size baseline strategy.
+Chunking Safety,Repealed legal chunks - structural,0,OK,Must be zero to ensure repealed legal articles were not chunked for retrieval.
+Chunking Safety,Repealed legal chunks - fixed-size,0,OK,Must be zero to ensure repealed legal articles were not chunked in the baseline.
+Evaluation Dataset,Total evaluation questions,150,OK,"Unified evaluation dataset including FAQ, legal article questions, and out-of-scope tests."
+Evaluation Dataset,FAQ evaluation questions,111,OK,Held-out FAQ questions used for retrieval evaluation.
+Evaluation Dataset,Legal article evaluation questions,24,OK,Manual legal questions linked to gold legal article references.
+Evaluation Dataset,Out-of-scope evaluation questions,15,OK,Questions used to test refusal behavior outside Saudi Labor Law.
+Metadata Coverage,Unique legal chapters,16,OK,Number of unique legal chapters represented in the cleaned legal dataset.
+Metadata Coverage,Unique FAQ sectors,5,OK,Number of unique FAQ sectors represented after cleaning.
+Metadata Coverage,Unique FAQ subsites,1,OK,Number of unique FAQ subsites represented after cleaning.

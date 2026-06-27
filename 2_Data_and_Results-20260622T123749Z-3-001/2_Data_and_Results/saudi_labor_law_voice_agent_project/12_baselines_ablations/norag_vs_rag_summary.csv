@@ -1,0 +1,3 @@
+﻿condition,n,correct_citation_rate,cc_ci95,wrong_citation_rate
+No-RAG,24,0.292,"[0.12, 0.50]",0.25
+RAG,24,0.208,"[0.04, 0.38]",0.042

@@ -1,0 +1,11 @@
+﻿user_query,intent,route,needs_rag,send_to_llm,is_retrieval_reliable,top1_score,latency_sec,direct_answer,reason
+السلام عليكم,greeting_or_small_talk,direct_response,False,False,,,,أهلاً وسهلاً، معك المساعد الذكي لنظام العمل السعودي. كيف أقدر أساعدك؟,Greeting or small-talk detected.
+كيف الحال؟,greeting_or_small_talk,direct_response,False,False,,,,أهلاً وسهلاً، معك المساعد الذكي لنظام العمل السعودي. كيف أقدر أساعدك؟,Greeting or small-talk detected.
+مين معي؟,agent_identity,direct_response,False,False,,,,معك وكيل صوتي ذكي مخصص للإجابة عن الاستفسارات المتعلقة بنظام العمل السعودي.,Agent identity question detected.
+وش تقدر تساعدني؟,agent_capability,direct_response,False,False,,,,أقدر أساعدك في أسئلة نظام العمل السعودي مثل فترة التجربة، ساعات العمل، الإجازات، الاستقالة، ونهاية الخدمة.,Capability question detected.
+كم مدة فترة التجربة؟,labor_law_question,rag_retrieval,True,True,True,0.9933346509933472,0.34848976135253906,,Labor-law keyword detected; send to RAG retrieval.
+متى يستحق العامل مكافأة نهاية الخدمة؟,labor_law_question,rag_retrieval,True,True,True,0.9793696999549866,0.23894453048706055,,Labor-law keyword detected; send to RAG retrieval.
+كم عدد ساعات العمل؟,labor_law_question,rag_retrieval,True,True,True,0.99920254945755,0.4732048511505127,,Labor-law keyword detected; send to RAG retrieval.
+كم سعر العقار في الرياض؟,out_of_scope,safe_rejection,False,False,,,,عذراً، هذا السؤال خارج نطاق اختصاصي. أستطيع مساعدتك فقط في الاستفسارات المتعلقة بنظام العمل السعودي.,Clearly outside Saudi labor law scope.
+ما حكم الطلاق؟,out_of_scope,safe_rejection,False,False,,,,عذراً، هذا السؤال خارج نطاق اختصاصي. أستطيع مساعدتك فقط في الاستفسارات المتعلقة بنظام العمل السعودي.,Clearly outside Saudi labor law scope.
+هل يحق للعامل الحصول على سيارة من الشركة؟,labor_law_question,rag_retrieval_blocked_by_reliability_gate,True,False,False,0.18797284364700317,0.35625648498535156,عذراً، لم أجد نصاً موثوقاً في نظام العمل السعودي يدعم إجابة دقيقة على هذا السؤال. يمكنك إعادة صياغة السؤال أو طرح سؤال متعلق مباشرة بنظام العمل أوأضغط رقم 1 لتعويلك لخموظق خدمة العملاء.,RAG retrieval score is below the reliability threshold.

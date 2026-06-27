@@ -1,0 +1,62 @@
+[
+  {
+    "file_group": "Notebook 03 required input",
+    "file_name": "Experimental KB - active law only",
+    "file_path": "saudi_labor_law_voice_agent_project\\03_final\\rag_knowledge_base_dataset_experiment_no_leakage_active_law_only.csv",
+    "exists": true,
+    "row_count": 489,
+    "size_kb": 1525.58,
+    "notebook03_usage": "Knowledge base for fair retrieval evaluation",
+    "status": "PASS"
+  },
+  {
+    "file_group": "Notebook 03 required input",
+    "file_name": "Retrieval evaluation dataset - valid only",
+    "file_path": "saudi_labor_law_voice_agent_project\\03_final\\rag_retrieval_evaluation_dataset_valid_only.csv",
+    "exists": true,
+    "row_count": 145,
+    "size_kb": 183.45,
+    "notebook03_usage": "Queries with valid gold labels for retrieval metrics",
+    "status": "PASS"
+  },
+  {
+    "file_group": "Notebook 03 required input",
+    "file_name": "Structural chunks",
+    "file_path": "saudi_labor_law_voice_agent_project\\04_chunks\\rag_chunks_structural_legal_experiment.csv",
+    "exists": true,
+    "row_count": 490,
+    "size_kb": 889.61,
+    "notebook03_usage": "Legal-structure-aware chunking experiment",
+    "status": "PASS"
+  },
+  {
+    "file_group": "Notebook 03 required input",
+    "file_name": "Fixed-size chunks",
+    "file_path": "saudi_labor_law_voice_agent_project\\04_chunks\\rag_chunks_fixed_size_experiment.csv",
+    "exists": true,
+    "row_count": 490,
+    "size_kb": 862.88,
+    "notebook03_usage": "Baseline fixed-size chunking experiment",
+    "status": "PASS"
+  },
+  {
+    "file_group": "Audit output",
+    "file_name": "Full evaluation dataset",
+    "file_path": "saudi_labor_law_voice_agent_project\\03_final\\rag_evaluation_dataset.csv",
+    "exists": true,
+    "row_count": 160,
+    "size_kb": 187.52,
+    "notebook03_usage": "Full evaluation and audit copy",
+    "status": "PASS"
+  },
+  {
+    "file_group": "Audit output",
+    "file_name": "Repealed legal archive",
+    "file_path": "saudi_labor_law_voice_agent_project\\03_final\\legal_articles_repealed_archive_not_indexed.csv",
+    "exists": true,
+    "row_count": 38,
+    "size_kb": 41.62,
+    "notebook03_usage": "Archived only; must not be indexed",
+    "status": "PASS"
+  }
+]

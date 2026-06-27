@@ -1,0 +1,7 @@
+﻿subset,model,n,answer_correct_mean,ci95_low,ci95_high
+all_questions,allam_7b,45,0.7333,0.6,0.8667
+all_questions,qwen_7b,45,0.6889,0.5556,0.8222
+legal_only,allam_7b,17,0.7647,0.5294,0.9412
+legal_only,qwen_7b,17,0.8235,0.6471,1.0
+faq_only,allam_7b,14,0.4286,0.2143,0.7143
+faq_only,qwen_7b,14,0.2143,0.0,0.4286

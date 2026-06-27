@@ -1,0 +1,4 @@
+﻿pipeline,end_to_end_sec
+"Current (large-v3, full answer)",4.07
+Optimized (small ASR + capped tokens),3.03
+Perceived with streaming (time-to-first-audio),0.95
